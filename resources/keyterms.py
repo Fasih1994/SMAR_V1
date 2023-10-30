@@ -41,9 +41,7 @@ class Keyterm(MethodView):
     @blp.response(200, None)
     def get(self):
         terms = []
-        # terms = KeyTermGenModel.find_by_text(text)
-        # if terms:
-        #     return terms.json()
+
         try:
 
             key_terms = KeyTermGenModel.find_all()
