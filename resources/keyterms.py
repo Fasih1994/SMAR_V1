@@ -39,7 +39,7 @@ class Keyterm(MethodView):
 class Keyterm(MethodView):
     # @jwt_required(fresh=True)
     @blp.response(200, None)
-    def post(self):
+    def get(self):
         terms = []
         # terms = KeyTermGenModel.find_by_text(text)
         # if terms:
