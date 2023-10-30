@@ -4,8 +4,10 @@ from utils import get_terms_openai
 from flask_jwt_extended import get_jwt_identity, jwt_required, get_jwt
 from sqlalchemy.exc import SQLAlchemyError
 
-from models import KeyTermGenModel
-from schemas import KeytermGenSchema
+from models import KeyTermGenModel, KeyTermSelectModel
+from schemas import KeytermGenSchema, KeytermGetDataSchema
+
+from data365 import get_twitter_posts, get_twitter_comments
 
 
 blp = Blueprint("Keyterms", "keyterms", description="Operations on Keyterms")
@@ -53,24 +55,31 @@ class Keyterm(MethodView):
             print(e)
             abort(500, message="An error occurred while inserting the item.")
 
-@blp.route("/keyterm/get_data")
+@blp.route("/keyterm/get_data/twitter")
 class KeytermGetData(MethodView):
     # @jwt_required(fresh=True)
-    @blp.arguments(KeytermGenSchema)
-    @blp.response(201, KeytermGenSchema)
+    @blp.arguments(KeytermGetDataSchema)
+    @blp.response(201, None)
     def post(self, term_data):
-        text = term_data['text']
-        # terms = KeyTermGenModel.find_by_text(text)
-        # if terms:
-        #     return terms.json()
-
-        key_terms = get_terms_openai(text=text.upper())
-        terms = KeyTermGenModel(**term_data, keyterms=key_terms)
-
         try:
-            terms.save_to_db()
+            platform = term_data['platform']
+            if platform != 'twitter':
+                return {"message": "Twitter not selected !"}
+
+            terms = term_data.pop('terms')
+            term_str = '--|--'.join(terms)
+            model = KeyTermSelectModel(text=term_data['text'], keyterms=term_str)
+            model.save_to_db()
+            for term in terms:
+                path = get_twitter_posts(term)
+                get_twitter_comments(path=path, key_word=term)
+
+            
+            return {'message': "Data extracted successfully!"}
+            
         except SQLAlchemyError as e:
             print(e)
             abort(500, message="An error occurred while inserting the item.")
-
-        return terms.json()
+        except Exception as e:
+            print(e)
+            abort(500, message="An error occurred while inserting the item.")

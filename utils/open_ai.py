@@ -9,7 +9,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 logger = get_logger("SMAR")
 
 
-sys_propmt = """Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:
+sys_propmt = """Generate 5 to 8 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:
 keyword1--|--keyword2--|--keyword3--|--keywordN
 
 UseCase:
