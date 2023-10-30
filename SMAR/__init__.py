@@ -1,0 +1,1 @@
+from SMAR.main import create_app

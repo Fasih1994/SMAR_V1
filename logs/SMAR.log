@@ -1,0 +1,420 @@
+"26-Oct-23 14:02:51" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"26-Oct-23 14:02:51" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"26-Oct-23 14:03:05" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 14:03:05] "[33mGET / HTTP/1.1[0m" 404 -
+"26-Oct-23 14:03:06" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 14:03:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"26-Oct-23 14:03:13" - SMAR - INFO - Test API is checked!
+"26-Oct-23 14:03:13" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 14:03:13] "GET /test HTTP/1.1" 200 -
+"26-Oct-23 14:04:19" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"26-Oct-23 14:04:19" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"26-Oct-23 14:04:19" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 14:04:20" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 14:04:20" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 16:11:01" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"26-Oct-23 16:11:01" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"26-Oct-23 16:11:01" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 16:11:02" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 16:11:02" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 16:13:26" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 16:13:26] "GET /swagger-ui HTTP/1.1" 200 -
+"26-Oct-23 16:13:28" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 16:13:28] "GET /openapi.json HTTP/1.1" 200 -
+"26-Oct-23 16:18:35" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 16:18:35] "[31m[1mPOST /keyterm/generate HTTP/1.1[0m" 401 -
+"26-Oct-23 16:18:56" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/resources/keyterms.py', reloading
+"26-Oct-23 16:18:56" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 16:18:57" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 16:18:57" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 16:19:00" - SMAR - INFO - getting terms against 'some_text'
+"26-Oct-23 16:19:00" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 16:19:00] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 16:20:37" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 16:20:37" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 16:20:38" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 16:20:38" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 16:22:51" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 16:22:51" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 16:22:52" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 16:22:52" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 16:23:27" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 16:23:27" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 16:23:28" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 16:23:28" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 16:24:20" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 16:24:20" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 16:24:21" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 16:24:21" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:18:02" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:18:02" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:18:03" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:18:03" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:19:50" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:19:50" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:19:51" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:19:51" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:22:04" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:22:04" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:22:05" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:22:05" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:23:05" - SMAR - INFO - getting terms against 'I want to get the financial new of cricket'
+"26-Oct-23 17:23:05" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:23:05" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches in the following format:\\nkeyword1--|--keyword2--|--keyword3\\n\\nMake sure to consider usecase of the user in tripple backticks\\n\\nUser Input:\\n"}, {"role": "user", "content": "I want to get the financial new of cricket"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:23:05" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:23:05" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:23:06" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:23:06" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=699 request_id=27a756950892c179a59d78e1c6e8f2e1 response_code=200
+"26-Oct-23 17:23:06" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:23:06] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:23:33" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:23:33" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:23:34" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:23:34" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:23:59" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:23:59] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:26:22" - SMAR - INFO - getting terms against 'what are the key factors affect global warming'
+"26-Oct-23 17:26:22" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:26:22" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches in the following format:\\nkeyword1--|--keyword2--|--keyword3\\n\\nMake sure to consider usecase of the user in tripple backticks\\n\\nUser Input:\\n"}, {"role": "user", "content": "what are the key factors affect global warming"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:26:22" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:26:22" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:26:24" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:26:24" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=694 request_id=0005c754855a65f0c7a0300590d3a2d5 response_code=200
+"26-Oct-23 17:26:24" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:26:24] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:26:49" - SMAR - INFO - getting terms against 'WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING'
+"26-Oct-23 17:26:49" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:26:49" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches in the following format:\\nkeyword1--|--keyword2--|--keyword3\\n\\nMake sure to consider usecase of the user in tripple backticks\\n\\nUser Input:\\n"}, {"role": "user", "content": "WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:26:49" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:26:49" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:26:50" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:26:50" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=713 request_id=618b9dee0d72d307a8ae5df26f1549fc response_code=200
+"26-Oct-23 17:26:50" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:26:50] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:27:13" - SMAR - INFO - getting terms against 'WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?'
+"26-Oct-23 17:27:13" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:27:13" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches in the following format:\\nkeyword1--|--keyword2--|--keyword3\\n\\nMake sure to consider usecase of the user in tripple backticks\\n\\nUser Input:\\n"}, {"role": "user", "content": "WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:27:13" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:27:13" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:27:14" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:27:14" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=595 request_id=7e9e63317f8d48144d8d1ac8ba2e6d44 response_code=200
+"26-Oct-23 17:27:14" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:27:14] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:28:24" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/resources/keyterms.py', reloading
+"26-Oct-23 17:28:24" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:28:24" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:28:24" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:28:50" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/resources/keyterms.py', reloading
+"26-Oct-23 17:28:50" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:28:51" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:28:51" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:29:09" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/resources/keyterms.py', reloading
+"26-Oct-23 17:29:10" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:29:10" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:29:10" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:29:58" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:29:58" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:29:58" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:29:58" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:31:16" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:31:17" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:31:17" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:31:17" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:31:26" - SMAR - INFO - getting terms against 'WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?'
+"26-Oct-23 17:31:26" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:31:26" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:31:26" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:31:26" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:31:29" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:31:29" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2126 request_id=4b1880adf8278c94708b5614e7ce09a1 response_code=200
+"26-Oct-23 17:31:29" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:31:29] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 500 -
+"26-Oct-23 17:35:03" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"26-Oct-23 17:35:03" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"26-Oct-23 17:35:03" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:35:04" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:35:04" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:35:08" - SMAR - INFO - getting terms against 'WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?'
+"26-Oct-23 17:35:08" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:35:08" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:35:08" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:35:08" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:35:11" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:35:11" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2308 request_id=a1ebf61187e7e58a85043d8944bd7c97 response_code=200
+"26-Oct-23 17:35:11" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:35:11] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 500 -
+"26-Oct-23 17:35:41" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/resources/keyterms.py', reloading
+"26-Oct-23 17:35:41" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:35:42" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:35:42" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:35:50" - SMAR - INFO - getting terms against 'WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?'
+"26-Oct-23 17:35:50" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:35:50" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:35:50" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:35:50" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:35:53" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:35:53" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2407 request_id=d9110ba6ed431a348081a706fd5ed78e response_code=200
+"26-Oct-23 17:35:53" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:35:53] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 500 -
+"26-Oct-23 17:37:08" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/models/keyterms.py', reloading
+"26-Oct-23 17:37:08" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:37:09" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:37:09" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:38:13" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"26-Oct-23 17:38:13" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"26-Oct-23 17:38:13" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:38:14" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:38:14" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:38:16" - SMAR - INFO - getting terms against 'WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?'
+"26-Oct-23 17:38:16" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:38:16" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT ARE THE KEYFACTORS AFFECT GLOBAL WARMING?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:38:16" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:38:16" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:38:19" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:38:19" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2204 request_id=14b300032e1738fd9f98a1916214a58b response_code=200
+"26-Oct-23 17:38:19" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:38:19] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:41:54" - SMAR - INFO - getting terms against 'WHY DO ISRAELI WANT FROM PALASTINE'
+"26-Oct-23 17:41:54" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:41:54" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHY DO ISRAELI WANT FROM PALASTINE"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:41:54" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:41:54" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:41:57" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:41:57" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2106 request_id=ba9258eb681407644b1fbedb4e85d318 response_code=200
+"26-Oct-23 17:41:57" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:41:57] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:42:51" - SMAR - INFO - getting terms against 'WHY DO ISRAELI WANT FROM PALASTINE'
+"26-Oct-23 17:42:51" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:42:51" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHY DO ISRAELI WANT FROM PALASTINE"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:42:51" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:42:51" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:42:54" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:42:54" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2070 request_id=f21e92eee599a4ebeb34c2095aa0f080 response_code=200
+"26-Oct-23 17:42:54" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:42:54] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:43:38" - SMAR - INFO - getting terms against 'ALI BHAI ITNA KU PAKATY HEN HUM SAB KO ?'
+"26-Oct-23 17:43:38" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:43:38" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "ALI BHAI ITNA KU PAKATY HEN HUM SAB KO ?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:43:38" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:43:38" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:43:39" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:43:39" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=940 request_id=1ef497b1430bc3db46bce50742b17a79 response_code=200
+"26-Oct-23 17:43:39" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:43:39] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:46:59" - SMAR - INFO - getting terms against 'WHAT COMES FIRST CHICKEN OR EGG?'
+"26-Oct-23 17:46:59" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:46:59" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT COMES FIRST CHICKEN OR EGG?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:46:59" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:46:59" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:47:01" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:47:01" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1019 request_id=fc285a0daedb810336c54432082eadeb response_code=200
+"26-Oct-23 17:47:01" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:47:01] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:48:12" - SMAR - INFO - getting terms against 'AB GAND MARA LO BHEN CHOD'
+"26-Oct-23 17:48:12" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:48:12" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "AB GAND MARA LO BHEN CHOD"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:48:12" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:48:12" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:48:13" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:48:13" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=512 request_id=98905939420e2b66f2203bcd1757b4f1 response_code=200
+"26-Oct-23 17:48:13" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:48:13] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:49:31" - SMAR - INFO - getting terms against 'WHAT DO ISRAELI WANT FROM PALESTINE?'
+"26-Oct-23 17:49:31" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"26-Oct-23 17:49:31" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT DO ISRAELI WANT FROM PALESTINE?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"26-Oct-23 17:49:31" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"26-Oct-23 17:49:31" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"26-Oct-23 17:49:34" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"26-Oct-23 17:49:34" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1607 request_id=791b180f8c478fd343ac75449541c1a8 response_code=200
+"26-Oct-23 17:49:34" - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2023 17:49:34] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"26-Oct-23 17:50:32" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:50:32" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:50:33" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:50:33" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:51:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:51:29" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:51:29" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:51:29" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:51:34" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:51:34" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:51:34" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:51:34" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:51:42" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:51:42" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:51:43" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:51:43" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"26-Oct-23 17:51:44" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/utils/open_ai.py', reloading
+"26-Oct-23 17:51:44" - werkzeug - INFO -  * Restarting with stat
+"26-Oct-23 17:51:44" - werkzeug - WARNING -  * Debugger is active!
+"26-Oct-23 17:51:44" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"27-Oct-23 15:42:36" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"27-Oct-23 15:42:36" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 15:42:36" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 15:42:37" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 15:42:37" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 15:49:37" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 15:49:37" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 15:49:37" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 15:49:38" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 15:49:38" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 15:50:43" - werkzeug - INFO - 192.168.5.125 - - [27/Oct/2023 15:50:43] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 15:50:43" - werkzeug - INFO - 192.168.5.125 - - [27/Oct/2023 15:50:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"27-Oct-23 15:50:57" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:50:57] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 15:50:57" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:50:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"27-Oct-23 15:51:05" - SMAR - INFO - Test API is checked!
+"27-Oct-23 15:51:05" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:51:05] "GET /test HTTP/1.1" 200 -
+"27-Oct-23 15:51:22" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:51:22] "GET /swagger-ui HTTP/1.1" 200 -
+"27-Oct-23 15:51:23" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:51:23] "GET /openapi.json HTTP/1.1" 200 -
+"27-Oct-23 15:52:21" - SMAR - INFO - getting terms against 'FORECASTING OF WEATHER'
+"27-Oct-23 15:52:21" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"27-Oct-23 15:52:21" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "FORECASTING OF WEATHER"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"27-Oct-23 15:52:21" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"27-Oct-23 15:52:21" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"27-Oct-23 15:52:23" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"27-Oct-23 15:52:23" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=878 request_id=f2917f11bc8d9900d80e99522121a051 response_code=200
+"27-Oct-23 15:52:23" - SMAR - INFO - generated terms are 'weather forecast--|--weather updates--|--meteorology--|--climate prediction--|--weather patterns'
+"27-Oct-23 15:52:23" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:52:23] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"27-Oct-23 16:16:26" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 16:16:26" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:16:26" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:16:27" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:16:27" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:26:23" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/SMAR/main.py', reloading
+"27-Oct-23 16:26:23" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:26:24" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:26:24" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:26:27" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 16:26:27" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:26:27" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:26:28" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:26:28" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:26:35" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"27-Oct-23 16:26:35" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:26:35" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:26:36" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:26:36" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:26:41" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 16:26:41" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:26:41" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:26:42" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:26:42" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:30:34" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 16:30:34" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:30:34" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:30:35" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:30:35" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:35:11" - werkzeug - INFO - 192.168.5.125 - - [27/Oct/2023 16:35:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"27-Oct-23 16:42:41" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:42:41] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 16:47:27" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/flask/app.py', reloading
+"27-Oct-23 16:47:27" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:47:55" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 16:47:55" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:47:55" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:47:55" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:47:55" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:54:37" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:54:37] "[33mGET /get-keywords HTTP/1.1[0m" 404 -
+"27-Oct-23 16:55:01" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:55:01] "[31m[1mGET /keyterm/generate HTTP/1.1[0m" 405 -
+"27-Oct-23 16:57:22" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:57:22] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 16:58:38" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:58:38] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:00:18" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:00:18] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:01:45" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:01:45] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:02:13" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:02:13] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 17:06:43" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:06:43] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:07:18" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:07:18] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:09:24" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:09:24] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:17:21" - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2023 17:17:21] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 17:17:27" - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2023 17:17:27] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 17:17:32" - SMAR - INFO - Test API is checked!
+"27-Oct-23 17:17:32" - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2023 17:17:32] "GET /test HTTP/1.1" 200 -
+"27-Oct-23 17:17:43" - SMAR - INFO - Test API is checked!
+"27-Oct-23 17:17:43" - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2023 17:17:43] "GET /test HTTP/1.1" 200 -
+"27-Oct-23 17:18:20" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:18:20] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:18:40" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:18:40] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 17:20:00" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:20:00] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:20:15" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:20:15] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:23:02" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:23:02] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:23:09" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:23:09] "[31m[1mGET /keyterm/generate HTTP/1.1[0m" 405 -
+"27-Oct-23 17:30:14" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:30:14] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:31:43" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:31:43] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:36:41" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:36:41] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:37:36" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:37:36] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:50:06" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:50:06] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 18:01:13" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 18:01:13] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 19:14:29" - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2023 19:14:29] "GET /openapi.json HTTP/1.1" 200 -
+"30-Oct-23 11:36:06" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"30-Oct-23 11:36:06" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Oct-23 11:36:06" - werkzeug - INFO -  * Restarting with stat
+"30-Oct-23 11:36:06" - werkzeug - WARNING -  * Debugger is active!
+"30-Oct-23 11:36:06" - werkzeug - INFO -  * Debugger PIN: 119-070-222
+"30-Oct-23 11:55:17" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"30-Oct-23 11:55:17" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Oct-23 11:55:17" - werkzeug - INFO -  * Restarting with stat
+"30-Oct-23 11:55:18" - werkzeug - WARNING -  * Debugger is active!
+"30-Oct-23 11:55:18" - werkzeug - INFO -  * Debugger PIN: 621-480-726
+"30-Oct-23 11:56:07" - SMAR - INFO - getting terms against 'WHAT DO ISRAELI WANT FROM PALESTINE?'
+"30-Oct-23 11:56:07" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"30-Oct-23 11:56:07" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT DO ISRAELI WANT FROM PALESTINE?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"30-Oct-23 11:56:07" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"30-Oct-23 11:56:07" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"30-Oct-23 11:56:08" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 401 301
+"30-Oct-23 11:56:08" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=326b7150e60f59db8626c5220209e446 response_code=401
+"30-Oct-23 11:56:08" - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-515eA***************************************nDp7. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+"30-Oct-23 11:56:08" - SMAR - INFO - generated terms are 'Incorrect API key provided: sk-515eA***************************************nDp7. You can find your API key at https://platform.openai.com/account/api-keys.'
+"30-Oct-23 11:56:08" - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 11:56:08] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"30-Oct-23 13:11:32" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"30-Oct-23 13:11:32" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Oct-23 13:11:32" - werkzeug - INFO -  * Restarting with stat
+"30-Oct-23 13:11:33" - werkzeug - WARNING -  * Debugger is active!
+"30-Oct-23 13:11:33" - werkzeug - INFO -  * Debugger PIN: 857-985-709
+"30-Oct-23 13:11:55" - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 13:11:55] "GET /swagger-ui HTTP/1.1" 200 -
+"30-Oct-23 13:11:56" - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 13:11:56] "GET /openapi.json HTTP/1.1" 200 -
+"30-Oct-23 13:11:56" - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 13:11:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"30-Oct-23 13:12:14" - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 13:12:14] "POST /keyterm/all HTTP/1.1" 200 -
+"30-Oct-23 13:23:24" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/resources/keyterms.py', reloading
+"30-Oct-23 13:23:24" - werkzeug - INFO -  * Restarting with stat
+"30-Oct-23 13:23:25" - werkzeug - WARNING -  * Debugger is active!
+"30-Oct-23 13:23:25" - werkzeug - INFO -  * Debugger PIN: 857-985-709
+"30-Oct-23 13:23:54" - SMAR - INFO - getting terms against 'WHAT DO ISRAELI WANT FROM PALESTINE?'
+"30-Oct-23 13:23:54" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"30-Oct-23 13:23:54" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT DO ISRAELI WANT FROM PALESTINE?"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"30-Oct-23 13:23:54" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"30-Oct-23 13:23:54" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"30-Oct-23 13:23:55" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 401 301
+"30-Oct-23 13:23:55" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=3ad92c1a7b654a37f5c96c919d4b0d76 response_code=401
+"30-Oct-23 13:23:55" - openai - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-515eA***************************************nDp7. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+"30-Oct-23 13:23:55" - SMAR - INFO - generated terms are 'Incorrect API key provided: sk-515eA***************************************nDp7. You can find your API key at https://platform.openai.com/account/api-keys.'
+"30-Oct-23 13:23:55" - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 13:23:55] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 500 -
+"30-Oct-23 13:26:09" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR/app.py', reloading
+"30-Oct-23 13:26:09" - werkzeug - INFO -  * Restarting with stat
+"30-Oct-23 13:26:10" - werkzeug - WARNING -  * Debugger is active!
+"30-Oct-23 13:26:10" - werkzeug - INFO -  * Debugger PIN: 857-985-709
+"30-Oct-23 13:31:42" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"30-Oct-23 13:31:42" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Oct-23 13:31:42" - werkzeug - INFO -  * Restarting with stat
+"30-Oct-23 13:31:43" - werkzeug - WARNING -  * Debugger is active!
+"30-Oct-23 13:31:43" - werkzeug - INFO -  * Debugger PIN: 857-985-709
+"30-Oct-23 13:32:29" - SMAR - INFO - getting terms against 'WHAT DO YO DO WHEN YOU NEED SOCIAL MARKETING'
+"30-Oct-23 13:32:29" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"30-Oct-23 13:32:29" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT DO YO DO WHEN YOU NEED SOCIAL MARKETING"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"30-Oct-23 13:32:29" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"30-Oct-23 13:32:29" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"30-Oct-23 13:32:32" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"30-Oct-23 13:32:32" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2200 request_id=30b9a055dafce38e65d389ea3b1b600f response_code=200
+"30-Oct-23 13:32:32" - SMAR - INFO - generated terms are 'social media marketing--|--digital marketing--|--social media strategy--|--social media advertising--|--social media management--|--social media campaigns--|--social media engagement--|--social media analytics--|--social media influencers--|--social media content--|--social media branding--|--social media promotions--|--social media ROI--|--social media platforms--|--social media trends'
+"30-Oct-23 13:32:32" - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 13:32:32] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
