@@ -1,4 +1,5 @@
 from flask.views import MethodView
+import json
 from flask_smorest import Blueprint, abort
 from utils import get_terms_openai, get_logger
 from flask_jwt_extended import get_jwt_identity, jwt_required, get_jwt
@@ -124,10 +125,10 @@ Trade and commerce""".split('\n')
             posts = get_twitter_data_from_db(terms, table='posts')
             comments = get_twitter_data_from_db(terms, table='comments')
             return {
-                # 'data': {
-                    "posts": posts.to_dict(orient='records'),
-                #     "comments": comments.to_dict(orient='records') 
-                # }
+                'data': {
+                    "posts": posts.to_dict(orient='records',),
+                    "comments": comments.to_dict(orient='records') 
+                }
                 }
             
         except SQLAlchemyError as e:

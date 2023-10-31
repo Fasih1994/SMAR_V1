@@ -123,15 +123,18 @@ def get_twitter_data_from_db(
     
     if table=='posts':
         sql = f"""
-        SELECT top 100 * FROM twitter_posts 
+        SELECT top 100 author_username --, created_time, view_count, text, tone, sentiment , geo_lat, geo_lon  
+        FROM twitter_posts 
         WHERE term in ('{"', '".join(terms)}');
         """
     elif table=='comments':
         sql = f"""
-        SELECT top 100 * FROM twitter_comments 
+        SELECT top 100 author_username , created_time, view_count, text, tone, sentiment , geo_lat, geo_lon 
+        FROM twitter_comments 
         WHERE term in ('{"', '".join(terms)}');
         """
     # print(sql)
         
     df = pd.read_sql_query(sql, sql_server_engine)
+    df.fillna('unavailable', inplace=True)
     return df

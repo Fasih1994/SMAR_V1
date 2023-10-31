@@ -2591,3 +2591,135 @@
 "31-Oct-23 23:55:35" - werkzeug - WARNING -  * Debugger is active!
 "31-Oct-23 23:55:35" - werkzeug - INFO -  * Debugger PIN: 772-950-650
 "31-Oct-23 23:55:38" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 23:55:38] "[35m[1mGET /keyterm/data/twitter HTTP/1.1[0m" 201 -
+"01-Nov-23 00:41:05" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+"01-Nov-23 00:41:05" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"01-Nov-23 00:41:05" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:41:06" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:41:06" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:41:17" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:41:17] "GET /swagger-ui HTTP/1.1" 200 -
+"01-Nov-23 00:41:18" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:41:18] "GET /openapi.json HTTP/1.1" 200 -
+"01-Nov-23 00:41:18" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:41:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"01-Nov-23 00:41:34" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:41:34] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:43:29" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:43:29" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:43:30" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:43:30" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:44:35" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:44:35" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:44:36" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:44:36" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:44:52" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:44:52" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:45:03" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+"01-Nov-23 00:45:03" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"01-Nov-23 00:45:03" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:45:03" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:45:03" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:45:11" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:45:11] "GET /swagger-ui HTTP/1.1" 200 -
+"01-Nov-23 00:45:11" - SMAR - ERROR - dump() missing 1 required positional argument: 'fp'
+"01-Nov-23 00:45:11" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:45:11] "[35m[1mGET /keyterm/data/twitter HTTP/1.1[0m" 500 -
+"01-Nov-23 00:45:11" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:45:11] "GET /openapi.json HTTP/1.1" 200 -
+"01-Nov-23 00:45:19" - SMAR - ERROR - dump() missing 1 required positional argument: 'fp'
+"01-Nov-23 00:45:19" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:45:19] "[35m[1mGET /keyterm/data/twitter HTTP/1.1[0m" 500 -
+"01-Nov-23 00:46:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:46:28" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:46:29" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:46:29" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:46:44" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:46:45" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:46:46" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:46:46" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:46:52" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:46:52" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:46:53" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:46:53" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:46:57" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:46:57" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:46:59" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:46:59" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:47:02" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:47:02] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:47:43" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:47:43" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:47:44" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:47:44" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:47:48" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:47:48" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:47:49" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:47:49" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:47:59" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:47:59] "GET /swagger-ui HTTP/1.1" 200 -
+"01-Nov-23 00:47:59" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:47:59] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:48:00" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:48:00] "GET /openapi.json HTTP/1.1" 200 -
+"01-Nov-23 00:48:07" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:48:07] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:52:35" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:52:35" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:52:36" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:52:36" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:52:43" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:52:43] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:53:19" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:53:19] "GET /keyterm/all HTTP/1.1" 200 -
+"01-Nov-23 00:53:40" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:53:41" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:53:42" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:53:42" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:53:49" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:53:49] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:54:16" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:54:16" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:54:17" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:54:17" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:54:48" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:54:48] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:54:54" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:54:54] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 00:58:33" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 00:58:33" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:59:35" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+"01-Nov-23 00:59:35" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"01-Nov-23 00:59:35" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 00:59:36" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 00:59:36" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 00:59:41" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 00:59:41] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 01:00:56" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 01:00:56" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:00:57" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:00:57" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:02:15" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"01-Nov-23 01:02:15" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:02:16" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:02:16" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:02:20" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:02:20] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 01:08:20" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"01-Nov-23 01:08:20" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"01-Nov-23 01:08:20" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:08:21" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:08:21" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:08:30" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:08:30] "GET /swagger-ui HTTP/1.1" 200 -
+"01-Nov-23 01:08:30" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:08:30] "GET /openapi.json HTTP/1.1" 200 -
+"01-Nov-23 01:08:30" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:08:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"01-Nov-23 01:08:40" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:08:40] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 01:09:30" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"01-Nov-23 01:09:30" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:09:31" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:09:31" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:09:34" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:09:34] "GET /swagger-ui HTTP/1.1" 200 -
+"01-Nov-23 01:09:34" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:09:34] "GET /openapi.json HTTP/1.1" 200 -
+"01-Nov-23 01:09:40" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:09:40] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 01:10:03" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"01-Nov-23 01:10:03" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:10:04" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:10:04" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:10:11" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:10:11] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 01:10:40" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"01-Nov-23 01:10:40" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:10:41" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:10:41" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:10:48" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:10:48] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 01:12:35" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"01-Nov-23 01:12:35" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:12:36" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:12:36" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:12:43" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"01-Nov-23 01:12:43" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 01:12:44" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 01:12:44" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 01:12:51" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:12:51] "GET /keyterm/data/twitter HTTP/1.1" 200 -
