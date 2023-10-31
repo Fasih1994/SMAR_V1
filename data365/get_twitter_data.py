@@ -44,8 +44,9 @@ def get_twitter_posts(key_word:str = None):
             finished = True
         elif r.json()['data']['status'] == 'failed':
             failed = False
+        if not finished:
+            time.sleep(2)
 
-        time.sleep(0.5)
 
     if failed: return None
 
@@ -97,7 +98,7 @@ def get_twitter_comments(path: str=None, key_word:str = None):
         for i, id in zip(tweets_with_reply.index,tweets_with_reply['id']):
             new_update_url = update_url.format(post_id=tweets_with_reply.loc[i,'id'], section='feed', profile_id=tweets_with_reply.loc[i,'author_id'])
             update_res = requests.post(new_update_url, params=params)
-        time.sleep(0.2)
+        time.sleep(10)
         for i, id in zip(tweets_with_reply.index,tweets_with_reply['id']):
             new_url = url.format(post_id=tweets_with_reply.loc[i,'id'], section='feed', profile_id=tweets_with_reply.loc[i,'author_id'])
             r = requests.get(url=new_url, params=params)

@@ -19,7 +19,7 @@ UseCase:
 """
 
 sys_propmt_sentiment = """analyze the text provided, give it's sentiment (positive, negative or neutral) and tone in the following format:
-sentiment--|--tone
+positive--|--playful
 
 Text:
 """
@@ -79,5 +79,5 @@ def get_terms_openai(text:str = None):
 
 if __name__ == '__main__':
     text = "love that everyone’s rock bottom is registering for a data analytics course"
-    sentiment = analize_text(text=text)
-    print(sentiment)
+    sentiment,tone = analize_text(text=text).split('--|--')
+    print(sentiment, tone)
