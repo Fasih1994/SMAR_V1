@@ -109,12 +109,18 @@ class KeytermGetData(MethodView):
 @blp.route("/keyterm/data/twitter")
 class KeytermGetData(MethodView):
     # @jwt_required(fresh=True)
-    @blp.arguments(KeytermDataFromTable)#, location='query')
+    # @blp.arguments(KeytermDataFromTable)#, location='query')
     @blp.response(201, None)
-    def get(self, args):
+    def get(self):#, args):
         try:
-            
-            terms = args['terms']
+            terms = """Dubai economy
+Economic growth
+Business environment
+Investment opportunities
+Infrastructure development
+Tourism industry
+Trade and commerce""".split('\n')
+            # terms = args['terms']
             posts = get_twitter_data_from_db(terms, table='posts')
             comments = get_twitter_data_from_db(terms, table='comments')
             return {

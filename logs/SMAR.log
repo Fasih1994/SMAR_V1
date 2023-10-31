@@ -2584,3 +2584,10 @@
 "31-Oct-23 23:48:15" - werkzeug - WARNING -  * Debugger is active!
 "31-Oct-23 23:48:15" - werkzeug - INFO -  * Debugger PIN: 772-950-650
 "31-Oct-23 23:49:18" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 23:49:18] "[35m[1mGET /keyterm/data/twitter HTTP/1.1[0m" 201 -
+"31-Oct-23 23:55:34" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+"31-Oct-23 23:55:34" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"31-Oct-23 23:55:34" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 23:55:35" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 23:55:35" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 23:55:38" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 23:55:38] "[35m[1mGET /keyterm/data/twitter HTTP/1.1[0m" 201 -
