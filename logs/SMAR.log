@@ -2529,3 +2529,40 @@
 "31-Oct-23 19:12:39" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "analyze the text provided, give it\'s sentiment (positive, negative or neutral) and tone in the following format:\\npositive--|--playful\\n\\nText:\\n"}, {"role": "user", "content": "@NWSWPC @NWS Thanks--as to the appraisal... Good if \'Chilli\' respects, ... ?? (Plush cabin, there! ????????) ... \\n???[???~?????|??]\\n-------\\n(Of ...couture/costume.) ... ??\\nhttps://t.co/GmlZPZKYG4 https://t.co/dVErrmHTs5"}], "max_tokens": 500, "temperature": 0}' message='Post details'
 "31-Oct-23 19:12:40" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
 "31-Oct-23 19:12:40" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=234 request_id=e401c036154ae6d732ecd994fa02998c response_code=200
+"31-Oct-23 20:08:16" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+"31-Oct-23 20:08:16" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"31-Oct-23 20:08:16" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 20:08:17" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 20:08:17" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 20:09:20" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 20:09:20] "[31m[1mPOST /keyterm/save HTTP/1.1[0m" 422 -
+"31-Oct-23 20:09:56" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"31-Oct-23 20:09:56" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 20:09:58" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 20:09:58" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 20:10:00" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 20:10:00] "[31m[1mPOST /keyterm/save HTTP/1.1[0m" 422 -
+"31-Oct-23 20:10:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/keyterms.py', reloading
+"31-Oct-23 20:10:29" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 20:10:30" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 20:10:30" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 20:10:33" - SMAR - ERROR - (sqlite3.InterfaceError) Error binding parameter 1 - probably unsupported type.
+[SQL: INSERT INTO keyterms_selected (text, keyterms) VALUES (?, ?)]
+[parameters: ('manual select', ['data', 'analytics'])]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+"31-Oct-23 20:10:33" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 20:10:33] "[35m[1mPOST /keyterm/save HTTP/1.1[0m" 500 -
+"31-Oct-23 20:11:50" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"31-Oct-23 20:11:51" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 20:11:52" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 20:11:52" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 20:11:53" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 20:11:53] "[35m[1mPOST /keyterm/save HTTP/1.1[0m" 201 -
+"31-Oct-23 20:12:35" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"31-Oct-23 20:12:35" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 20:12:37" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 20:12:37" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 20:12:52" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+"31-Oct-23 20:12:52" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"31-Oct-23 20:12:52" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 20:12:53" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 20:12:53" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 20:12:54" - werkzeug - INFO - 127.0.0.1 - - [31/Oct/2023 20:12:54] "GET /keyterm/all HTTP/1.1" 200 -

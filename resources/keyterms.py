@@ -5,7 +5,7 @@ from flask_jwt_extended import get_jwt_identity, jwt_required, get_jwt
 from sqlalchemy.exc import SQLAlchemyError
 
 from models import KeyTermGenModel, KeyTermSelectModel
-from schemas import KeytermGenSchema, KeytermGetDataSchema, KeytermDataFromTable
+from schemas import KeytermGenSchema, KeytermGetDataSchema, KeytermDataFromTable, KeytermSelectSchema
 
 from data365 import get_twitter_posts, get_twitter_comments, get_twitter_data_from_db
 
@@ -38,6 +38,23 @@ class Keyterm(MethodView):
 
         return terms.json()
 
+@blp.route("/keyterm/save")
+class Keyterm(MethodView):
+    # @jwt_required(fresh=True)
+    @blp.arguments(KeytermSelectSchema)
+    @blp.response(201, None)
+    def post(self, term_data):
+        terms = '--|--'.join(term_data['terms'])
+        terms = KeyTermSelectModel(text='manual select', keyterms=terms)
+
+        try:
+            terms.save_to_db()
+        except SQLAlchemyError as e:
+            logger.error(e)
+            abort(500, message="An error occurred while inserting the item.")
+
+        return {"message": "terms saved successfully"}
+
 @blp.route("/keyterm/all")
 class Keyterm(MethodView):
     # @jwt_required(fresh=True)
@@ -50,7 +67,7 @@ class Keyterm(MethodView):
             key_terms = KeyTermSelectModel.find_all()
             for term in key_terms:
                 terms.extend(term.json()['terms'])
-            return {'terms': terms}
+            return {'terms': list(set(terms))}
 
         except SQLAlchemyError as e:
             logger.error(e)
