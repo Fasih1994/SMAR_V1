@@ -1,5 +1,6 @@
 import os
-from utils import get_logger, get_engine
+from utils import get_logger
+from utils.db_helper import get_engine
 import openai
 import pandas as pd
 from dotenv import load_dotenv

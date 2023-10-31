@@ -3136,3 +3136,9 @@
 "31-Oct-23 14:45:46" - werkzeug - INFO -  * Restarting with stat
 "31-Oct-23 14:45:46" - werkzeug - WARNING -  * Debugger is active!
 "31-Oct-23 14:45:46" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"31-Oct-23 16:44:34" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+"31-Oct-23 16:44:34" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"31-Oct-23 16:44:34" - werkzeug - INFO -  * Restarting with stat
+"31-Oct-23 16:44:35" - werkzeug - WARNING -  * Debugger is active!
+"31-Oct-23 16:44:35" - werkzeug - INFO -  * Debugger PIN: 772-950-650
