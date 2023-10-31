@@ -1,6 +1,6 @@
 from flask.views import MethodView
 from flask_smorest import Blueprint, abort
-from utils import get_terms_openai
+from utils import get_terms_openai, get_logger
 from flask_jwt_extended import get_jwt_identity, jwt_required, get_jwt
 from sqlalchemy.exc import SQLAlchemyError
 
@@ -12,6 +12,7 @@ from data365 import get_twitter_posts, get_twitter_comments, get_twitter_data_fr
 
 blp = Blueprint("Keyterms", "keyterms", description="Operations on Keyterms")
 
+logger = get_logger('SMAR')
 
 @blp.route("/keyterm/generate")
 class Keyterm(MethodView):
@@ -32,7 +33,7 @@ class Keyterm(MethodView):
         try:
             terms.save_to_db()
         except SQLAlchemyError as e:
-            print(e)
+            logger.error(e)
             abort(500, message="An error occurred while inserting the item.")
 
         return terms.json()
@@ -52,7 +53,7 @@ class Keyterm(MethodView):
             return {'terms': terms}
 
         except SQLAlchemyError as e:
-            print(e)
+            logger.error(e)
             abort(500, message="An error occurred while inserting the item.")
 
 @blp.route("/keyterm/get_data/twitter")
@@ -78,10 +79,10 @@ class KeytermGetData(MethodView):
             return {'message': "Data extracted successfully!"}
             
         except SQLAlchemyError as e:
-            print(e)
+            logger.error(e)
             abort(500, message="An error occurred while inserting the item.")
         except Exception as e:
-            print(e)
+            logger.error(e)
             abort(500, message="An error occurred while inserting the item.")
 
 @blp.route("/keyterm/data/twitter")
@@ -103,8 +104,8 @@ class KeytermGetData(MethodView):
                 }
             
         except SQLAlchemyError as e:
-            print(e)
+            logger.error(e)
             abort(500, message="An error occurred while Getting data from SQL server.")
         except Exception as e:
-            print(e)
+            logger.error(e)
             abort(500, message="backend code messed up")
