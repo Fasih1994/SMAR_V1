@@ -13,7 +13,7 @@ class KeytermSelectSchema(Schema):
     terms = fields.List(cls_or_instance=fields.Str(), required=True)
 
 class KeytermDataFromTable(Schema):
-    term = fields.List(cls_or_instance=fields.Str(), required=True, location="query")
+    terms = fields.List(cls_or_instance=fields.Str(), required=True)#, location="query")
 
 
 
