@@ -64,6 +64,7 @@ def get_twitter_posts(key_word:str = None):
             if data['page_info']['has_next_page']:
                 cursor = data['page_info']['cursor']
                 page += 1
+                data_available = False # remove this to get all data 
             else:
                 data_available = False
         else:

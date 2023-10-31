@@ -1,7 +1,9 @@
 import os
-from utils import get_logger
+from utils import get_logger, get_engine
 import openai
+import pandas as pd
 from dotenv import load_dotenv
+
 
 load_dotenv('.flaskenv')
 openai.api_key = os.environ['OPENAI_API_KEY']
@@ -13,6 +15,12 @@ sys_propmt = """Generate 5 to 8 keywords for social media (twitter, facebook, li
 keyword1--|--keyword2--|--keyword3--|--keywordN
 
 UseCase:
+"""
+
+sys_propmt_sentiment = """analyze the text provided, give it's sentiment (positive, negative or neutral) and tone in the following format:
+sentiment--|--tone
+
+Text:
 """
 
 def chat_with_gpt3(prompt):
@@ -38,6 +46,27 @@ def chat_with_gpt3(prompt):
         return response['choices'][0]['message']['content']
 
     except Exception as e:
+        
+        return str(e)
+
+def analize_text(text:str = None):
+    try:
+
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": sys_propmt_sentiment},
+                {"role": "user", "content": text},
+            ],
+            max_tokens=500,  # Adjust the max_tokens as needed
+            temperature=0,  # Adjust the temperature for creativity
+        )       
+
+        # return response.choices[0].text.strip()
+        return response['choices'][0]['message']['content']
+
+    except Exception as e:
+        
         return str(e)
 
 def get_terms_openai(text:str = None):
@@ -48,6 +77,6 @@ def get_terms_openai(text:str = None):
 
 
 if __name__ == '__main__':
-    text = "I want to get the financial new of cricket"
-    terms = get_terms_openai(text=text)
-    print(terms)
+    text = "love that everyone’s rock bottom is registering for a data analytics course"
+    sentiment = analize_text(text=text)
+    print(sentiment)
