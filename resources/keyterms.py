@@ -67,6 +67,10 @@ class Keyterm(MethodView):
             key_terms = KeyTermSelectModel.find_all()
             for term in key_terms:
                 terms.extend(term.json()['terms'])
+                
+            key_terms = KeyTermGenModel.find_all()
+            for term in key_terms:
+                terms.extend(term.json()['terms'])
             return {'terms': list(set(terms))}
 
         except SQLAlchemyError as e:
