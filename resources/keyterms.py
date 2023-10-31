@@ -110,7 +110,7 @@ class KeytermGetData(MethodView):
 class KeytermGetData(MethodView):
     # @jwt_required(fresh=True)
     # @blp.arguments(KeytermDataFromTable)#, location='query')
-    @blp.response(201, None)
+    @blp.response(200, None)
     def get(self):#, args):
         try:
             terms = """Dubai economy
