@@ -21,6 +21,9 @@ UseCase:
 sys_propmt_sentiment = """analyze the text provided, give it's sentiment (positive, negative or neutral) and tone in the following format:
 positive--|--playful
 
+if sentiment analysis not posible then return
+neutral--|--neutral
+
 Text:
 """
 
