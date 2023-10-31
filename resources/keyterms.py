@@ -124,10 +124,10 @@ Trade and commerce""".split('\n')
             posts = get_twitter_data_from_db(terms, table='posts')
             comments = get_twitter_data_from_db(terms, table='comments')
             return {
-                'data': {
+                # 'data': {
                     "posts": posts.to_dict(orient='records'),
-                    "comments": comments.to_dict(orient='records') 
-                }
+                #     "comments": comments.to_dict(orient='records') 
+                # }
                 }
             
         except SQLAlchemyError as e:
