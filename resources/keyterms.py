@@ -47,7 +47,7 @@ class Keyterm(MethodView):
 
         try:
 
-            key_terms = KeyTermGenModel.find_all()
+            key_terms = KeyTermSelectModel.find_all()
             for term in key_terms:
                 terms.extend(term.json()['terms'])
             return {'terms': terms}
