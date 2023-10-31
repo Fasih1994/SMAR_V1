@@ -123,12 +123,12 @@ def get_twitter_data_from_db(
     
     if table=='posts':
         sql = f"""
-        SELECT * FROM twitter_posts 
+        SELECT top 100 * FROM twitter_posts 
         WHERE term in ('{"', '".join(terms)}');
         """
     elif table=='comments':
         sql = f"""
-        SELECT * FROM twitter_comments 
+        SELECT top 100 * FROM twitter_comments 
         WHERE term in ('{"', '".join(terms)}');
         """
     # print(sql)
