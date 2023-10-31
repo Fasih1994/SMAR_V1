@@ -4,6 +4,9 @@ from data365.helpers import get_data, transform_data
 from dotenv import load_dotenv
 import requests
 import pandas as pd
+from typing import Literal
+
+from utils import get_engine
 
 load_dotenv()
 
@@ -12,6 +15,8 @@ base_query_param = {
     'max_page_size': 100,
     'order_by': "date_asc"
 }
+
+sql_server_engine = get_engine()
 
 def get_twitter_posts(key_word:str = None):
     url = "https://api.data365.co/v1.1/twitter/search/post/posts"
@@ -71,6 +76,7 @@ def get_twitter_posts(key_word:str = None):
         df['tone'] = 'unknown'
         write_path = f"data/Twitter/twitter_posts_for_{'-'.join(key_word.split())}.csv"
         df.to_csv(write_path, index=False)
+        df.to_sql('twitter_posts', sql_server_engine, if_exists='append' )
     
     return write_path
 
@@ -102,5 +108,28 @@ def get_twitter_comments(path: str=None, key_word:str = None):
             comments['term'] = key_word
             comments['sentiment'] = 'unknown'
             comments['tone'] = 'unknown'
-            write_path = f"data/Twitter/twitter_comments_for_{'-'.join(key_word.split())}.csv"
-            comments.to_csv(write_path, index=False)
+            # write_path = f"data/Twitter/twitter_comments_for_{'-'.join(key_word.split())}.csv"
+            # comments.to_csv(write_path, index=False)
+            comments.to_sql('twitter_comments', sql_server_engine, if_exists='append' )
+            
+def get_twitter_data_from_db(
+    terms:list[str] = None, 
+    table: Literal['comments','posts'] = 'posts'
+    ) -> pd.DataFrame:
+    if terms == []:
+        return None
+    
+    if table=='posts':
+        sql = f"""
+        SELECT * FROM twitter_posts 
+        WHERE term in ('{"', '".join(terms)}');
+        """
+    elif table=='comments':
+        sql = f"""
+        SELECT * FROM twitter_comments 
+        WHERE term in ('{"', '".join(terms)}');
+        """
+    # print(sql)
+        
+    df = pd.read_sql_query(sql, sql_server_engine)
+    return df

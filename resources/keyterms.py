@@ -5,9 +5,9 @@ from flask_jwt_extended import get_jwt_identity, jwt_required, get_jwt
 from sqlalchemy.exc import SQLAlchemyError
 
 from models import KeyTermGenModel, KeyTermSelectModel
-from schemas import KeytermGenSchema, KeytermGetDataSchema
+from schemas import KeytermGenSchema, KeytermGetDataSchema, KeytermDataFromTable
 
-from data365 import get_twitter_posts, get_twitter_comments
+from data365 import get_twitter_posts, get_twitter_comments, get_twitter_data_from_db
 
 
 blp = Blueprint("Keyterms", "keyterms", description="Operations on Keyterms")
@@ -83,3 +83,28 @@ class KeytermGetData(MethodView):
         except Exception as e:
             print(e)
             abort(500, message="An error occurred while inserting the item.")
+
+@blp.route("/keyterm/data/twitter")
+class KeytermGetData(MethodView):
+    # @jwt_required(fresh=True)
+    @blp.arguments(KeytermDataFromTable, location='query')
+    @blp.response(201, None)
+    def get(self, args):
+        try:
+            
+            terms = args['term']
+            posts = get_twitter_data_from_db(terms, table='posts')
+            comments = get_twitter_data_from_db(terms, table='comments')
+            return {
+                'data': {
+                    "posts": posts.to_dict(orient='records'),
+                    "comments": comments.to_dict(orient='records') 
+                }
+                }
+            
+        except SQLAlchemyError as e:
+            print(e)
+            abort(500, message="An error occurred while Getting data from SQL server.")
+        except Exception as e:
+            print(e)
+            abort(500, message="backend code messed up")

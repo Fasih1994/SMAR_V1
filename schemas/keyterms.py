@@ -10,6 +10,10 @@ class KeytermGenSchema(Schema):
     terms = fields.List(cls_or_instance=fields.Str(), dump_only=True,)
 
 
+class KeytermDataFromTable(Schema):
+    term = fields.List(cls_or_instance=fields.Str(), required=True, location="query")
+
+
 class KeytermGetDataSchema(Schema):
     id = fields.Int()
     text = fields.Str(required=True)
