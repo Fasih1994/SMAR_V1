@@ -2723,3 +2723,31 @@
 "01-Nov-23 01:12:44" - werkzeug - WARNING -  * Debugger is active!
 "01-Nov-23 01:12:44" - werkzeug - INFO -  * Debugger PIN: 772-950-650
 "01-Nov-23 01:12:51" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 01:12:51] "GET /keyterm/data/twitter HTTP/1.1" 200 -
+"01-Nov-23 17:24:07" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"01-Nov-23 17:24:07" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"01-Nov-23 17:24:07" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 17:24:08" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 17:24:08" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 17:24:25" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:24:25] "[33mGET /swagger-ui HTTP/1.1[0m" 404 -
+"01-Nov-23 17:24:33" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:24:33] "[33mGET /keyterm HTTP/1.1[0m" 404 -
+"01-Nov-23 17:24:36" - SMAR - INFO - Test API is checked!
+"01-Nov-23 17:24:36" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:24:36] "GET /keyterm/test HTTP/1.1" 200 -
+"01-Nov-23 17:24:42" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:24:42] "[33mGET /keyterm/swagger-ui HTTP/1.1[0m" 404 -
+"01-Nov-23 17:25:10" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:10] "[33mGET /keyterm/swagger-ui HTTP/1.1[0m" 404 -
+"01-Nov-23 17:25:16" - SMAR - INFO - Test API is checked!
+"01-Nov-23 17:25:16" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:16] "GET /keyterm/test HTTP/1.1" 200 -
+"01-Nov-23 17:25:29" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:29] "[33mGET /keyterm/keyterm/test HTTP/1.1[0m" 404 -
+"01-Nov-23 17:25:36" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:36] "GET /keyterm/keyterm/swagger-ui HTTP/1.1" 200 -
+"01-Nov-23 17:25:37" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:37] "GET /keyterm/openapi.json HTTP/1.1" 200 -
+"01-Nov-23 17:25:47" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/SMAR/main.py', reloading
+"01-Nov-23 17:25:47" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 17:25:48" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 17:25:48" - werkzeug - INFO -  * Debugger PIN: 772-950-650
+"01-Nov-23 17:25:49" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:49] "[33mGET /keyterm/keyterm/swagger-ui HTTP/1.1[0m" 404 -
+"01-Nov-23 17:25:53" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:53] "GET /keyterm/swagger-ui HTTP/1.1" 200 -
+"01-Nov-23 17:25:53" - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2023 17:25:53] "GET /openapi.json HTTP/1.1" 200 -
+"01-Nov-23 17:26:11" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/SMAR/main.py', reloading
+"01-Nov-23 17:26:12" - werkzeug - INFO -  * Restarting with stat
+"01-Nov-23 17:26:13" - werkzeug - WARNING -  * Debugger is active!
+"01-Nov-23 17:26:13" - werkzeug - INFO -  * Debugger PIN: 772-950-650
