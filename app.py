@@ -11,7 +11,7 @@ app = create_app()
 
 
 
-@app.route('/test')
+@app.route('/keyterm/test')
 def test_api():
     logger.info('Test API is checked!')
     return {'message': "APIs started successfully!"}, 200
