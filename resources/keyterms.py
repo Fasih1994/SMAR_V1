@@ -101,10 +101,10 @@ class KeytermGetData(MethodView):
             return {'message': "Data extracted successfully!"}
             
         except SQLAlchemyError as e:
-            logger.error(e)
+            logger.error(str(e))
             abort(500, message="An error occurred while inserting the item.")
         except Exception as e:
-            logger.error(e)
+            logger.error(str(e))
             abort(500, message="An error occurred!")
 
 @blp.route("/keyterm/data/twitter")
