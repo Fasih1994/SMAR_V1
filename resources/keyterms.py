@@ -95,6 +95,7 @@ class KeytermGetData(MethodView):
             model.save_to_db()
             for term in terms:
                 path = get_twitter_posts(term)
+                
                 if path == "":
                     return {'message': "Data not present against these terms!"}, 200
                 get_twitter_comments(path=path, key_word=term)

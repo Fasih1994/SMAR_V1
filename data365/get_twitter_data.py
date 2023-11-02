@@ -6,9 +6,11 @@ import requests
 import pandas as pd
 from typing import Literal
 
-from utils import get_engine
+from utils import get_engine, get_logger
 
 load_dotenv()
+
+logger = get_logger("SMAR")
 
 base_query_param = {
     'access_token': os.environ['DATA365_KEY'],
@@ -22,7 +24,7 @@ def get_twitter_posts(key_word:str = None):
     url = "https://api.data365.co/v1.1/twitter/search/post/posts"
     update_url = "https://api.data365.co/v1.1/twitter/search/post/update"
     status_url = "https://api.data365.co/v1.1/twitter/search/post/update"
-
+    logger.info(f"Updating tasks for {key_word}")
     # update task for keyword
     r = requests.post(
         update_url, 
@@ -33,6 +35,7 @@ def get_twitter_posts(key_word:str = None):
     )
 
     # check taskh status
+    
     finished = False
     failed = False
     while not finished:
@@ -46,6 +49,7 @@ def get_twitter_posts(key_word:str = None):
             failed = False
         if not finished:
             time.sleep(2)
+    logger.info(f"Finished tasks for {key_word}")
 
 
     if failed: return None
@@ -70,7 +74,8 @@ def get_twitter_posts(key_word:str = None):
                 data_available = False
         else:
             data_available = False
-            
+    logger.info(f"Data is {data_dict}")
+                
     if data_dict['items']!= []:
         df = transform_data(data_dict) 
         df['term'] = key_word
