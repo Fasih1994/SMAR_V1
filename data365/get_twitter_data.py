@@ -74,13 +74,13 @@ def get_twitter_posts(key_word:str = None):
                 data_available = False
         else:
             data_available = False
-    logger.info(f"Data is {data_dict}")
                 
     if data_dict['items']!= []:
         df = transform_data(data_dict) 
         df['term'] = key_word
         df['sentiment'] = 'unknown'
         df['tone'] = 'unknown'
+        logger.info(f"Data is {df.head()}")
         write_path = f"data/Twitter/twitter_posts_for_{'-'.join(key_word.split())}.csv"
         df.to_csv(write_path, index=False)
         df.to_sql('twitter_posts', sql_server_engine, if_exists='append' )
