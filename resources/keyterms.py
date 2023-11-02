@@ -98,6 +98,7 @@ class KeytermGetData(MethodView):
                 
                 if path == "":
                     return {'message': "Data not present against these terms!"}, 200
+                logger.info(f"New Path is {path}")
                 get_twitter_comments(path=path, key_word=term)
 
             

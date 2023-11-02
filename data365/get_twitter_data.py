@@ -94,9 +94,11 @@ def get_twitter_comments(path: str=None, key_word:str = None):
     params = {
         'access_token': os.environ['DATA365_KEY'],
     }
+    logger.info(f"getting comments for {key_word}")
 
     tweets = pd.read_csv(path)
     tweets_with_reply = tweets[tweets['reply_count'] >= 1]
+    logger.info(f"data is {tweets_with_reply.head()}")
     data = {'items': []}
     data_not_extracted = True
     while data_not_extracted:
@@ -115,6 +117,7 @@ def get_twitter_comments(path: str=None, key_word:str = None):
             comments['term'] = key_word
             comments['sentiment'] = 'unknown'
             comments['tone'] = 'unknown'
+            logger.info(f"comments are {comments.head()}")
             # write_path = f"data/Twitter/twitter_comments_for_{'-'.join(key_word.split())}.csv"
             # comments.to_csv(write_path, index=False)
             comments.to_sql('twitter_comments', sql_server_engine, if_exists='append' )
