@@ -97,7 +97,7 @@ def get_twitter_comments(path: str=None, key_word:str = None):
     logger.info(f"getting comments for {key_word}")
 
     tweets = pd.read_csv(path)
-    tweets_with_reply = tweets[tweets['reply_count'] >= 1]
+    tweets_with_reply = tweets[tweets['reply_count'] >= 1].head(50)
     logger.info(f"data is {tweets_with_reply.head()}")
     data = {'items': []}
     data_not_extracted = True
@@ -121,6 +121,8 @@ def get_twitter_comments(path: str=None, key_word:str = None):
             # write_path = f"data/Twitter/twitter_comments_for_{'-'.join(key_word.split())}.csv"
             # comments.to_csv(write_path, index=False)
             comments.to_sql('twitter_comments', sql_server_engine, if_exists='append' )
+            logger.info(f"comments are written to db for {key_word}")
+            
             
 def get_twitter_data_from_db(
     terms:list[str] = None, 
