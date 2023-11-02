@@ -105,7 +105,7 @@ class KeytermGetData(MethodView):
             abort(500, message="An error occurred while inserting the item.")
         except Exception as e:
             logger.error(e)
-            abort(500, message="An error occurred while inserting the item.")
+            abort(500, message="An error occurred!")
 
 @blp.route("/keyterm/data/twitter")
 class KeytermGetData(MethodView):
