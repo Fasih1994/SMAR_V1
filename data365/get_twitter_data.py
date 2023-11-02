@@ -79,8 +79,8 @@ def get_twitter_posts(key_word:str = None):
         write_path = f"data/Twitter/twitter_posts_for_{'-'.join(key_word.split())}.csv"
         df.to_csv(write_path, index=False)
         df.to_sql('twitter_posts', sql_server_engine, if_exists='append' )
-    
-    return write_path
+        return write_path
+    return ""
 
 def get_twitter_comments(path: str=None, key_word:str = None):
     update_url = "https://api.data365.co/v1.1/twitter/profile/{profile_id}/{section}/posts/{post_id}/update"
