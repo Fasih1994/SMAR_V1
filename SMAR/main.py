@@ -39,7 +39,7 @@ def create_app(db_url:str = None) -> Flask:
     db.init_app(app)
     migrate = Migrate(app, db)
     api = Api(app)
-    CORS(app, resources={r"/keyterm/*": {"origins": ["*"]}})
+    CORS(app, resources={"*": {"origins": ["*"]}})
 
 
 
