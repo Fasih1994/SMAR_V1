@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_smorest import Api
+from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from flask_migrate import Migrate
 import os
@@ -38,20 +39,21 @@ def create_app(db_url:str = None) -> Flask:
     db.init_app(app)
     migrate = Migrate(app, db)
     api = Api(app)
+    CORS(app, resources={r"/keyterm/*": {"origins": ["*"]}})
 
-    
+
 
     app.config["JWT_SECRET_KEY"] = "Fasih's_version_of_SMAR"
     jwt = JWTManager(app)
     configure_jwt(jwt)
 
     # JWT configuration ends
-    
+
     api.register_blueprint(UserBlueprint)
     api.register_blueprint(ItemBlueprint)
     api.register_blueprint(StoreBlueprint)
     api.register_blueprint(KeytermBlueprint)
-    
+
     return app
 
 
