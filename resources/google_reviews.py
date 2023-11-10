@@ -35,7 +35,7 @@ class GooglePlaces(MethodView):
                 headers=HEADERS,
                 json=post_data
             )
-            print(res.json())
+            # print(res.json())
             if res.status_code != 200:
                 raise ValueError
         except ValueError as e:

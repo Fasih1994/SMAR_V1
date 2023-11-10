@@ -2870,3 +2870,15 @@
 "10-Nov-23 18:19:52" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
 "10-Nov-23 18:19:52" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJbSazIt_OsGoRvH2Z-l9ZvGQ&fields=name%2Crating%2Cformatted_phone_number%2Creviews&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 4672
 "10-Nov-23 18:19:52" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:19:52] "GET /keyterm/google/place-data?id=ChIJbSazIt_OsGoRvH2Z-l9ZvGQ HTTP/1.1" 200 -
+"10-Nov-23 18:22:39" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"10-Nov-23 18:22:39" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"10-Nov-23 18:22:39" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:22:40" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:22:40" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:22:42" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
+"10-Nov-23 18:22:43" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 200 None
+"10-Nov-23 18:22:43" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:22:43] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"10-Nov-23 18:23:01" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
+"10-Nov-23 18:23:02" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 200 None
+"10-Nov-23 18:23:02" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:23:02] "POST /keyterm/google/place-id HTTP/1.1" 200 -
