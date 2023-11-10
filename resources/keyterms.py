@@ -65,14 +65,12 @@ class Keyterm(MethodView):
 
         try:
 
-            key_terms = KeyTermSelectModel.find_all()
-            for term in key_terms:
-                terms.extend(term.json()['terms'])
-
             key_terms = KeyTermGenModel.find_all()
+            key_terms = [term.json() for term in key_terms]
+            key_terms = sorted(key_terms, key=lambda x:x['id'], reverse=True)
             for term in key_terms:
-                terms.extend(term.json()['terms'])
-            return {'terms': list(set(terms))}
+                terms.extend(term['terms'])
+            return {'terms': list(set(terms))[:15]}
 
         except SQLAlchemyError as e:
             logger.error(e)
