@@ -13,7 +13,8 @@ from resources import (
     UserBlueprint,
     StoreBlueprint,
     ItemBlueprint,
-    KeytermBlueprint
+    KeytermBlueprint,
+    GoogleReviewBlueprint
 )
 
 from flask import jsonify
@@ -53,6 +54,7 @@ def create_app(db_url:str = None) -> Flask:
     api.register_blueprint(ItemBlueprint)
     api.register_blueprint(StoreBlueprint)
     api.register_blueprint(KeytermBlueprint)
+    api.register_blueprint(GoogleReviewBlueprint)
 
     return app
 

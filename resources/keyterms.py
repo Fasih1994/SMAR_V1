@@ -68,7 +68,7 @@ class Keyterm(MethodView):
             key_terms = KeyTermSelectModel.find_all()
             for term in key_terms:
                 terms.extend(term.json()['terms'])
-                
+
             key_terms = KeyTermGenModel.find_all()
             for term in key_terms:
                 terms.extend(term.json()['terms'])
@@ -95,15 +95,15 @@ class KeytermGetData(MethodView):
             model.save_to_db()
             for term in terms:
                 path = get_twitter_posts(term)
-                
+
                 if path == "":
                     return {'message': "Data not present against these terms!"}, 200
                 logger.info(f"New Path is {path}")
                 get_twitter_comments(path=path, key_word=term)
 
-            
+
             return {'message': "Data extracted successfully!"}
-            
+
         except SQLAlchemyError as e:
             logger.error(str(e))
             abort(500, message="An error occurred while inserting the item.")
@@ -118,23 +118,23 @@ class KeytermGetData(MethodView):
     @blp.response(200, None)
     def post(self, args):
         try:
-#             terms = """Dubai economy
-# Economic growth
-# Business environment
-# Investment opportunities
-# Infrastructure development
-# Tourism industry
-# Trade and commerce""".split('\n')
+                # terms = """Dubai economy
+                # Economic growth
+                # Business environment
+                # Investment opportunities
+                # Infrastructure development
+                # Tourism industry
+                # Trade and commerce""".split('\n')
             terms = args['terms']
             posts = get_twitter_data_from_db(terms, table='posts')
             comments = get_twitter_data_from_db(terms, table='comments')
             return {
                 'data': {
                     "posts": posts.to_dict(orient='records',),
-                    "comments": comments.to_dict(orient='records') 
+                    "comments": comments.to_dict(orient='records')
                 }
                 }
-            
+
         except SQLAlchemyError as e:
             logger.error(e)
             abort(500, message="An error occurred while Getting data from SQL server.")

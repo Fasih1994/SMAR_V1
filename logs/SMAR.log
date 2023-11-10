@@ -2757,3 +2757,116 @@
 "08-Nov-23 13:49:52" - werkzeug - INFO -  * Restarting with stat
 "08-Nov-23 13:49:53" - werkzeug - WARNING -  * Debugger is active!
 "08-Nov-23 13:49:53" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"08-Nov-23 13:54:57" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"08-Nov-23 13:54:57" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"08-Nov-23 13:54:57" - werkzeug - INFO -  * Restarting with stat
+"08-Nov-23 13:54:58" - werkzeug - WARNING -  * Debugger is active!
+"08-Nov-23 13:54:58" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:47:13" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"10-Nov-23 17:47:13" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"10-Nov-23 17:47:13" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:47:14" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:47:14" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:47:33" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:47:33] "[33mGET / HTTP/1.1[0m" 404 -
+"10-Nov-23 17:47:33" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:47:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"10-Nov-23 17:47:37" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:47:37] "GET /swagger-ui HTTP/1.1" 200 -
+"10-Nov-23 17:47:38" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:47:38] "GET /openapi.json HTTP/1.1" 200 -
+"10-Nov-23 17:48:10" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/SMAR/main.py', reloading
+"10-Nov-23 17:48:10" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:48:11" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:48:11" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:48:13" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:48:13] "GET /swagger-ui HTTP/1.1" 200 -
+"10-Nov-23 17:48:13" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:48:13] "GET /openapi.json HTTP/1.1" 200 -
+"10-Nov-23 17:49:27" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"10-Nov-23 17:49:27" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"10-Nov-23 17:49:27" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:49:28" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:49:28" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:49:42" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:49:42] "GET /swagger-ui HTTP/1.1" 200 -
+"10-Nov-23 17:49:42" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:49:42] "GET /openapi.json HTTP/1.1" 200 -
+"10-Nov-23 17:49:42" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:49:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"10-Nov-23 17:51:07" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 17:51:07" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:51:08" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:51:08" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:51:15" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 17:51:15" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:51:16" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:51:16" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:51:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 17:51:29" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:51:29" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:51:29" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:51:45" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 17:51:45" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:51:46" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:51:46" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:54:41" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_reviews.py', reloading
+"10-Nov-23 17:54:41" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:54:42" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:54:42" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:54:53" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:54:53] "GET /swagger-ui HTTP/1.1" 200 -
+"10-Nov-23 17:54:53" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:54:53] "GET /openapi.json HTTP/1.1" 200 -
+"10-Nov-23 17:55:33" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 17:55:33" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 17:55:34" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 17:55:34" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 17:55:36" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:55:36] "GET /swagger-ui HTTP/1.1" 200 -
+"10-Nov-23 17:55:36" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:55:36] "GET /openapi.json HTTP/1.1" 200 -
+"10-Nov-23 17:56:07" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"10-Nov-23 17:56:07" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name%2Crating%2Cformatted_phone_number&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 139
+"10-Nov-23 17:56:07" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 17:56:07] "GET /keyterm/google/place-data?id=ChIJN1t_tDeuEmsRUsoyG83frY4 HTTP/1.1" 200 -
+"10-Nov-23 18:09:22" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"10-Nov-23 18:09:22" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name%2Crating%2Cformatted_phone_number&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 194
+"10-Nov-23 18:09:22" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:09:22] "GET /keyterm/google/place-data?id=ChIJN1t_tDeuEmsRUsoyG83frY4 HTTP/1.1" 200 -
+"10-Nov-23 18:10:31" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 18:10:31" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:10:32" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:10:32" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:10:34" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"10-Nov-23 18:10:35" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name%2Crating%2Cformatted_phone_number%2Creviews&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 5337
+"10-Nov-23 18:10:35" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:10:35] "GET /keyterm/google/place-data?id=ChIJN1t_tDeuEmsRUsoyG83frY4 HTTP/1.1" 200 -
+"10-Nov-23 18:11:23" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 18:11:23" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:11:24" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:11:24" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:11:30" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 18:11:30" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:11:31" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:11:31" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:12:43" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:12:43] "[31m[1mPOST /keyterm/google/place-data HTTP/1.1[0m" 405 -
+"10-Nov-23 18:13:04" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
+"10-Nov-23 18:13:05" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 400 None
+"10-Nov-23 18:13:05" - SMAR - ERROR - 
+"10-Nov-23 18:13:05" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:13:05] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"10-Nov-23 18:13:25" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"10-Nov-23 18:13:25" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"10-Nov-23 18:13:25" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:13:26" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:13:26" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:13:36" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 18:13:37" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:13:38" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:13:38" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:13:46" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 18:13:46" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:13:47" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:13:47" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:13:52" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
+"10-Nov-23 18:13:53" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 400 None
+"10-Nov-23 18:13:53" - SMAR - ERROR - 
+"10-Nov-23 18:13:53" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:13:53] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"10-Nov-23 18:19:06" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"10-Nov-23 18:19:06" - werkzeug - INFO -  * Restarting with stat
+"10-Nov-23 18:19:07" - werkzeug - WARNING -  * Debugger is active!
+"10-Nov-23 18:19:07" - werkzeug - INFO -  * Debugger PIN: 130-224-695
+"10-Nov-23 18:19:09" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
+"10-Nov-23 18:19:10" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 200 None
+"10-Nov-23 18:19:10" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:19:10] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"10-Nov-23 18:19:52" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"10-Nov-23 18:19:52" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJbSazIt_OsGoRvH2Z-l9ZvGQ&fields=name%2Crating%2Cformatted_phone_number%2Creviews&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 4672
+"10-Nov-23 18:19:52" - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2023 18:19:52] "GET /keyterm/google/place-data?id=ChIJbSazIt_OsGoRvH2Z-l9ZvGQ HTTP/1.1" 200 -
