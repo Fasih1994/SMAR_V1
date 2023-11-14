@@ -53,7 +53,7 @@ class GooglePlaces(MethodView):
         _id = term_data['id']
         params = {
             'place_id': _id,
-            'fields': 'name,rating,formatted_phone_number,reviews',
+            'fields': 'name,rating,formatted_phone_number,reviews,geometry',
             'key': os.environ.get("GOOGLE_API_KEY")
         }
 
