@@ -2945,3 +2945,20 @@
 "14-Nov-23 17:29:32" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
 "14-Nov-23 17:29:33" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
 "14-Nov-23 17:29:33" - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2023 17:29:33] "GET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1" 200 -
+"14-Nov-23 17:30:58" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"14-Nov-23 17:30:58" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"14-Nov-23 17:30:58" - werkzeug - INFO -  * Restarting with stat
+"14-Nov-23 17:30:59" - werkzeug - WARNING -  * Debugger is active!
+"14-Nov-23 17:30:59" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"14-Nov-23 17:31:01" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
+"14-Nov-23 17:31:02" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 400 None
+"14-Nov-23 17:31:02" - SMAR - ERROR - 
+"14-Nov-23 17:31:02" - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2023 17:31:02] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"14-Nov-23 17:31:41" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"14-Nov-23 17:31:42" - werkzeug - INFO -  * Restarting with stat
+"14-Nov-23 17:31:42" - werkzeug - WARNING -  * Debugger is active!
+"14-Nov-23 17:31:42" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"14-Nov-23 17:31:45" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
+"14-Nov-23 17:31:47" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 200 None
+"14-Nov-23 17:31:47" - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2023 17:31:47] "POST /keyterm/google/place-id HTTP/1.1" 200 -
