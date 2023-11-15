@@ -2962,3 +2962,238 @@
 "14-Nov-23 17:31:45" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): places.googleapis.com:443
 "14-Nov-23 17:31:47" - urllib3.connectionpool - DEBUG - https://places.googleapis.com:443 "POST /v1/places:searchText HTTP/1.1" 200 None
 "14-Nov-23 17:31:47" - werkzeug - INFO - 127.0.0.1 - - [14/Nov/2023 17:31:47] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"15-Nov-23 13:49:38" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 13:49:38" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 13:49:38" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 13:49:39" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 13:49:39" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 13:49:51" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 13:50:11" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 13:50:11] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 13:51:42" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 13:51:43" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 13:51:44" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 13:51:44" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 13:51:46" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 13:52:07" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 13:52:07] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 13:52:12" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 13:52:12" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 13:52:13" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 13:52:13" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 13:52:28" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 13:52:28] "GET /keyterm/all HTTP/1.1" 200 -
+"15-Nov-23 13:52:42" - SMAR - INFO - getting terms against 'WHAT DO YO DO WHEN YOU NEED SOCIAL MARKETING & ANALYSIS'
+"15-Nov-23 13:52:42" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"15-Nov-23 13:52:42" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 8 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT DO YO DO WHEN YOU NEED SOCIAL MARKETING & ANALYSIS"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"15-Nov-23 13:52:42" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"15-Nov-23 13:52:42" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"15-Nov-23 13:53:02" - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+"15-Nov-23 13:53:02" - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fcb50bfe260>: Failed to resolve 'api.openai.com' ([Errno -3] Temporary failure in name resolution)")': /v1/chat/completions
+"15-Nov-23 13:53:02" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.openai.com:443
+"15-Nov-23 13:53:22" - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+"15-Nov-23 13:53:22" - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fcb50bfe410>: Failed to resolve 'api.openai.com' ([Errno -3] Temporary failure in name resolution)")': /v1/chat/completions
+"15-Nov-23 13:53:22" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.openai.com:443
+"15-Nov-23 13:53:42" - SMAR - INFO - generated terms are 'Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fcb50bfe380>: Failed to resolve 'api.openai.com' ([Errno -3] Temporary failure in name resolution)"))'
+"15-Nov-23 13:53:42" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 13:53:42] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"15-Nov-23 15:01:32" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 15:01:32" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 15:01:32" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:01:33" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:01:33" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:01:37" - SMAR - INFO - getting terms against 'WHAT DO YO DO WHEN YOU NEED SOCIAL MARKETING & ANALYSIS'
+"15-Nov-23 15:01:37" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"15-Nov-23 15:01:37" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 8 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "WHAT DO YO DO WHEN YOU NEED SOCIAL MARKETING & ANALYSIS"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"15-Nov-23 15:01:37" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"15-Nov-23 15:01:37" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"15-Nov-23 15:01:39" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"15-Nov-23 15:01:39" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=810 request_id=11f1e5ed9ef124b290b2444615caafa9 response_code=200
+"15-Nov-23 15:01:39" - SMAR - INFO - generated terms are 'social media marketing--|--social media analysis--|--digital marketing--|--social media strategy--|--social media advertising--|--social media metrics--|--social media trends'
+"15-Nov-23 15:01:39" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:01:39] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"15-Nov-23 15:01:47" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:01:48" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
+"15-Nov-23 15:01:48" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:01:48] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 15:02:32" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:02:32" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:02:34" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:02:34" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:02:35" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:02:36" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
+"15-Nov-23 15:02:36" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:02:36] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 15:03:17" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:03:17" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:03:18" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:03:18" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:03:19" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:03:20" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:03:21" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:03:21" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:03:26" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:03:27" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
+"15-Nov-23 15:03:27" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:03:27] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 15:04:02" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:04:03" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:04:04" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:04:04" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:04:05" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:04:06" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
+"15-Nov-23 15:04:06" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:04:06] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 15:04:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:04:29" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:04:30" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:04:30" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:04:30" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:04:30" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
+"15-Nov-23 15:04:30" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:04:30] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 15:04:49" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:04:50" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:04:51" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:04:51" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:04:52" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:04:52" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:04:53" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:04:53" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:04:54" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:04:55" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
+"15-Nov-23 15:04:55" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:04:55] "[35m[1mGET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1[0m" 500 -
+"15-Nov-23 15:34:36" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 15:34:36" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 15:34:36" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:34:37" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:34:37" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:34:40" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:34:40" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:34:41" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:34:41" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:34:46" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:34:47" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJ_0V2865cXz4RUL0f816Xf-I&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7290
+"15-Nov-23 15:34:47" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:34:47] "GET /keyterm/google/place-data?id=ChIJ_0V2865cXz4RUL0f816Xf-I HTTP/1.1" 200 -
+"15-Nov-23 15:36:04" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:36:05" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJscDxKSpqXz4Rx4JlNgBMu5g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 7677
+"15-Nov-23 15:36:05" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:36:05] "GET /keyterm/google/place-data?id=ChIJscDxKSpqXz4Rx4JlNgBMu5g HTTP/1.1" 200 -
+"15-Nov-23 15:36:38" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:36:39" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:36:40" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:36:40" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:37:49" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_api.py', reloading
+"15-Nov-23 15:37:50" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:41:00" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 15:41:00" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 15:41:00" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:41:01" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:41:01" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:41:17" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:41:18" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 15:41:18" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:41:18] "[35m[1mGET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1[0m" 500 -
+"15-Nov-23 15:41:40" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:41:40" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:41:41" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:41:41" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:42:19" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:42:19" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:42:24" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 15:42:24" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 15:42:24" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:42:25" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:42:25" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:42:27" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:42:28" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 15:42:28" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:42:28] "[35m[1mGET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1[0m" 500 -
+"15-Nov-23 15:42:54" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:42:54" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:42:55" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:42:55" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:42:57" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:42:58" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 15:42:58" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:42:58] "[35m[1mGET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1[0m" 500 -
+"15-Nov-23 15:43:07" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 15:45:01" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:45:02" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:45:02" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:45:02" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:45:02" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:45:04" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 15:45:04" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 15:45:04" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:45:04] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 15:45:04" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:45:04] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 15:45:09" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 15:45:09" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 15:45:10" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 15:45:10" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 15:45:10" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 15:45:15" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 15:45:15" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 15:45:15" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 15:45:15] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 15:46:34" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/models/google_api.py', reloading
+"15-Nov-23 15:46:35" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:00:00" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 16:00:00" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 16:00:00" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:00:01" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:00:01" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:00:09" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:00:09] "[35m[1mGET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1[0m" 500 -
+"15-Nov-23 16:00:57" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 16:00:57" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:00:58" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:00:58" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:01:06" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:01:06] "[35m[1mGET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1[0m" 500 -
+"15-Nov-23 16:01:51" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/models/google_api.py', reloading
+"15-Nov-23 16:01:52" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:01:53" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:01:53" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:02:01" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 16:02:01" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:02:02" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:02:02" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:02:07" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:02:07] "[35m[1mGET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1[0m" 500 -
+"15-Nov-23 16:02:39" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 16:02:39" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 16:02:39" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:02:40" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:02:40" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:02:42" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 16:02:43" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 16:02:43" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:02:43] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 16:03:27" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"15-Nov-23 16:03:27" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:03:28" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:03:28" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:03:33" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 16:03:34" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 16:03:34" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:03:34] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 16:04:11" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 16:04:11" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 16:04:11" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:04:11] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 16:04:28" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 16:04:28" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 16:04:28" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:04:28] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 16:09:51" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 16:09:51" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 16:09:51" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:09:52" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:09:52" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:10:06" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/models/google_api.py', reloading
+"15-Nov-23 16:10:07" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:10:41" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"15-Nov-23 16:10:41" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"15-Nov-23 16:10:41" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:10:42" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:10:42" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:11:00" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 16:11:01" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 16:11:01" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:11:01] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"15-Nov-23 16:11:20" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:11:20] "[35m[1mGET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1[0m" 500 -
+"15-Nov-23 16:11:44" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/models/google_api.py', reloading
+"15-Nov-23 16:11:44" - werkzeug - INFO -  * Restarting with stat
+"15-Nov-23 16:11:45" - werkzeug - WARNING -  * Debugger is active!
+"15-Nov-23 16:11:45" - werkzeug - INFO -  * Debugger PIN: 838-921-367
+"15-Nov-23 16:12:03" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com:443
+"15-Nov-23 16:12:04" - urllib3.connectionpool - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=ChIJQf800DFDXz4R93f6SHN6O6g&fields=name%2Crating%2Cformatted_phone_number%2Creviews%2Cgeometry&key=AIzaSyCenESl9Y4ksgH2gk3OmboN0u3VQr7Yt6A HTTP/1.1" 200 6198
+"15-Nov-23 16:12:04" - werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 16:12:04] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -

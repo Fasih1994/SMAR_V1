@@ -1,9 +1,15 @@
-from flask.views import MethodView
 import os
 import requests
+from typing import Dict
+
+from flask.views import MethodView
 from flask_smorest import Blueprint, abort
+from marshmallow import ValidationError
+
 from utils import get_logger
-from schemas import GoooglePlaceDataSchema, GoooglePlaceIdSchema
+from models import Place, Review
+from schemas import GoooglePlaceDataSchema, GoooglePlaceIdSchema, ApiResponseSchema
+from db import db
 
 blp = Blueprint("Google", "google", description="Google reviews for places")
 
@@ -16,6 +22,41 @@ HEADERS = {
 }
 GOOGLE_PLACE_ID_URL = 'https://places.googleapis.com/v1/places:searchText'
 GOOGLE_PLACE_DATA_URL = 'https://maps.googleapis.com/maps/api/place/details/json'
+
+
+def save_places(places_data: Dict = None, place_id: str = None) -> Place:
+    # print(places_data.keys())
+    place_data = places_data['result']
+    reviews_data = places_data['result']['reviews']
+
+    new_place = Place(
+        place_id=place_id,
+        formatted_phone_number=place_data.get('formatted_phone_number'),
+        name=place_data.get('name'),
+        rating=place_data.get('rating'),
+        lat=place_data['geometry']['location']['lat'],
+        lng=place_data['geometry']['location']['lng']
+    )
+    new_place.save_to_db()
+
+    for review_data in reviews_data:
+        new_review = Review(
+            author_name=review_data['author_name'],
+            rating=review_data['rating'],
+            text=review_data['text'],
+            time=review_data['time'],
+            translated=review_data['translated'],
+            profile_photo_url=review_data['profile_photo_url'],
+            relative_time_description=review_data['relative_time_description'],
+            author_url=review_data['author_url'],
+            language=review_data['language'],
+            original_language=review_data['original_language'],
+            place=new_place
+        )
+        new_review.save_to_db()
+
+    return new_place
+
 
 
 @blp.route("/keyterm/google/place-id")
@@ -58,16 +99,23 @@ class GooglePlaces(MethodView):
         }
 
         try:
+            place = Place.find_by_id(place_id=_id)
+            if place:
+                place.delete_from_db()
+
             res = requests.get(
                 url=GOOGLE_PLACE_DATA_URL,
                 params=params
             )
-            # print(res.json())
+
             if res.status_code != 200:
                 raise ValueError
+            data = res.json()
+            place = save_places(data,place_id=_id)
+
         except ValueError as e:
             print(e)
             logger.error(e)
-            abort(500, message="An error occurred on Backend.")
+            abort(500, message="An error occurred on Backend.", error=str(e))
 
-        return res.json()
+        return ApiResponseSchema().dump({'result': place, 'status': data['status']}), 200
