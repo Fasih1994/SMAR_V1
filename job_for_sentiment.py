@@ -23,15 +23,15 @@ Session = sessionmaker(bind=sql_server_engine)
 def get_unknown_text_df(table:str=None):
     if table == 'posts':
         sql = """SELECT top 100 * FROM twitter_posts where sentiment='unknown'"""
-        
+
     elif table == 'comments':
         sql = """SELECT top 100 * FROM twitter_comments where sentiment='unknown'"""
-        
+
     df = pd.read_sql(sql, sql_server_engine)
     return df
-    
 
-def update_sentiment(table:str=None, session:Session = None, 
+
+def update_sentiment(table:str=None, session:Session = None,
                      id:int = None, sentiment:str = None, tone:str = None):
     update_query = f"""
         UPDATE {table}
@@ -56,7 +56,9 @@ if __name__ == "__main__":
             logger.info('Starting sentiment analysis for Twitter Posts')
             for id, text in zip(posts['id'], posts['text']):
                 print(id, text)
-                sentiment, tone = analize_text(text).split('--|--')
+                result = analize_text(text)
+                print(result)
+                sentiment, tone = result.split('--|--')
                 update_sentiment(table=table, session=session, id=id, sentiment=sentiment, tone=tone)
                 count+=1
                 time.sleep(1)
@@ -71,13 +73,15 @@ if __name__ == "__main__":
             logger.info('Starting sentiment analysis for Twitter Comments')
             for id, text in zip(comments['id'],comments['text']):
                 print(id, text)
-                sentiment, tone = analize_text(text).split('--|--')
+                result = analize_text(text)
+                print(result)
+                sentiment, tone = result.split('--|--')
                 update_sentiment(table=table, session=session, id=id, sentiment=sentiment, tone=tone)
                 count+=1
                 time.sleep(1)
             logger.info(f'Analized {count} Twitter Comments!')
             session.close()
-        logger.info(f'Completed sentiment job at:{datetime.now()}')        
+        logger.info(f'Completed sentiment job at:{datetime.now()}')
     except Exception as e:
+        print(e)
         logger.error(str(e))
-        

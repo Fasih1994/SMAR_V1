@@ -21,10 +21,18 @@ UseCase:
 sys_propmt_sentiment = """analyze the text provided, give it's sentiment (positive, negative or neutral) and tone in the following format:
 positive--|--playful
 
-if sentiment analysis not posible then return
-neutral--|--neutral
+- Consider everything in tripple back-tiks as one text if the text is in list format provide single sentiment whole list
+Example List text:
+1. These schools have many entitled kids, so look at their anti-bullying policies.
+2. Is the fees affordable 3yrs down the road with current income, a downgrade later may affect the child mentally
+3. Extracurricular & networking opportunities
+4. Is it a school first or a business
 
-Text:
+Result:
+negative--|--neutral
+
+- If sentiment analysis not posible then return
+"neutral--|--neutral"
 """
 
 def chat_with_gpt3(prompt):
@@ -40,17 +48,17 @@ def chat_with_gpt3(prompt):
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": sys_propmt},
-                {"role": "user", "content": prompt},
+                {"role": "user", "content": f"```{prompt}```"},
             ],
             max_tokens=500,  # Adjust the max_tokens as needed
             temperature=0,  # Adjust the temperature for creativity
-        )       
+        )
 
         # return response.choices[0].text.strip()
         return response['choices'][0]['message']['content']
 
     except Exception as e:
-        
+
         return str(e)
 
 def analize_text(text:str = None):
@@ -64,13 +72,13 @@ def analize_text(text:str = None):
             ],
             max_tokens=500,  # Adjust the max_tokens as needed
             temperature=0,  # Adjust the temperature for creativity
-        )       
+        )
 
         # return response.choices[0].text.strip()
         return response['choices'][0]['message']['content']
 
     except Exception as e:
-        
+
         return str(e)
 
 def get_terms_openai(text:str = None):
