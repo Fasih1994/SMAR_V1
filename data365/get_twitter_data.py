@@ -169,6 +169,7 @@ def get_twitter_comments(path: str=None, key_word:str = None):
                 ids.remove(i)
                 logger.warning(f"get for comment id: {tweets_with_reply.loc[i,'id']} failed!")
 
+    logger.info(f"GET for comments Completed!")
     if data['items'] != []:
         # data_not_extracted = False
         comments = transform_data(data)
