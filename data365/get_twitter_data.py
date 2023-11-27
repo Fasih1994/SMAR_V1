@@ -162,12 +162,12 @@ def get_twitter_comments(path: str=None, key_word:str = None):
                 new_url = url.format(post_id=tweets_with_reply.loc[i,'id'], section='feed', profile_id=tweets_with_reply.loc[i,'author_id'])
                 r = requests.get(url=new_url, params=params)
                 items = r.json()['data']['items']
-                logger.info(f"GET for comment id: {i} finished! \n {items}")
+                logger.info(f"GET for comment id: {tweets_with_reply.loc[i,'id']} finished! \n {items}")
                 data['items'].extend(items)
                 items = None
             elif r.json()['data']['status'] == 'failed':
                 ids.remove(i)
-                logger.warning(f"get for comment id: {i} failed!")
+                logger.warning(f"get for comment id: {tweets_with_reply.loc[i,'id']} failed!")
 
     if data['items'] != []:
         # data_not_extracted = False
