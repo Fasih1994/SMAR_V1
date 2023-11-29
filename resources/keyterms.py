@@ -123,9 +123,9 @@ class KeytermGetData(MethodView):
                 # Infrastructure development
                 # Tourism industry
                 # Trade and commerce""".split('\n')
-            terms = args['terms']
-            posts = get_twitter_data_from_db(terms, table='posts')
-            comments = get_twitter_data_from_db(terms, table='comments')
+            terms = args.pop('terms')
+            posts = get_twitter_data_from_db(terms, table='posts', **args)
+            comments = get_twitter_data_from_db(terms, table='comments', **args)
             return {
                 'data': {
                     "posts": posts.to_dict(orient='records',),

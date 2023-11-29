@@ -372,3 +372,239 @@
 [5 rows x 36 columns]
 "29-Nov-23 19:05:07" - SMAR - INFO - comments are written to db for Tourism industry
 "29-Nov-23 19:05:07" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:05:07] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -
+"29-Nov-23 19:16:29" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"29-Nov-23 19:16:29" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"29-Nov-23 19:16:29" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 19:16:30" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 19:16:30" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 19:17:01" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:17:01] "[33mGET /swagger-ui HTTP/1.1[0m" 404 -
+"29-Nov-23 19:17:02" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:17:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"29-Nov-23 19:18:29" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:18:29] "[33mGET /swagger-ui HTTP/1.1[0m" 404 -
+"29-Nov-23 19:18:35" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:18:35] "GET /keyterm/swagger-ui HTTP/1.1" 200 -
+"29-Nov-23 19:18:36" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:18:36] "GET /openapi.json HTTP/1.1" 200 -
+"29-Nov-23 19:37:38" - SMAR - INFO - Updating tasks for dubaia economy
+"29-Nov-23 19:38:09" - SMAR - INFO - Finished tasks for dubaia economy
+"29-Nov-23 19:38:09" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:38:09] "POST /keyterm/get_data/twitter HTTP/1.1" 200 -
+"29-Nov-23 19:38:26" - SMAR - INFO - Updating tasks for Dubai economy
+"29-Nov-23 19:39:00" - SMAR - INFO - Finished tasks for Dubai economy
+"29-Nov-23 19:39:01" - SMAR - INFO - Data is                                   attached_links_url                                attached_medias_url  ...     tone     tweet_insert_timestamp
+0                                               None                                               None  ...  unknown 2023-11-29 19:39:01.043751
+1                                               None    https://pbs.twimg.com/media/FtGIvaLXwAAaXot.jpg  ...  unknown 2023-11-29 19:39:01.043751
+2                                               None    https://pbs.twimg.com/media/Ft_1byFWwAE6Kxv.jpg  ...  unknown 2023-11-29 19:39:01.043751
+3                                               None  https://video.twimg.com/ext_tw_video/165042005...  ...  unknown 2023-11-29 19:39:01.043751
+4  https://tradechronicle.com/dubai-economy-touri...                                               None  ...  unknown 2023-11-29 19:39:01.043751
+
+[5 rows x 36 columns]
+"29-Nov-23 19:39:01" - SMAR - INFO - New Path is data/Twitter/twitter_posts_for_Dubai-economy.csv
+"29-Nov-23 19:39:01" - SMAR - INFO - getting comments for Dubai economy
+"29-Nov-23 19:39:01" - SMAR - INFO - data is              attached_links_url                                attached_medias_url  ...     tone      tweet_insert_timestamp
+0                           NaN                                                NaN  ...  unknown  2023-11-29 19:39:01.043751
+1                           NaN    https://pbs.twimg.com/media/FtGIvaLXwAAaXot.jpg  ...  unknown  2023-11-29 19:39:01.043751
+5                           NaN    https://pbs.twimg.com/media/FuyCvmgWAAE8zqg.jpg  ...  unknown  2023-11-29 19:39:01.043751
+7  https://youtu.be/wAvsTXJvBos                                                NaN  ...  unknown  2023-11-29 19:39:01.043751
+9                           NaN  https://video.twimg.com/ext_tw_video/165333241...  ...  unknown  2023-11-29 19:39:01.043751
+
+[5 rows x 36 columns]
+"29-Nov-23 19:39:11" - SMAR - INFO - GET for comment id: 1643285440928120839 finished! 
+ []
+"29-Nov-23 19:39:12" - SMAR - INFO - GET for comment id: 1651838935369220096 finished! 
+ []
+"29-Nov-23 19:39:13" - SMAR - INFO - GET for comment id: 1654123950476255239 finished! 
+ []
+"29-Nov-23 19:39:14" - SMAR - INFO - GET for comment id: 1658437415709597696 finished! 
+ []
+"29-Nov-23 19:39:15" - SMAR - INFO - GET for comment id: 1661279653909213185 finished! 
+ []
+"29-Nov-23 19:39:16" - SMAR - INFO - GET for comment id: 1644245869485514753 finished! 
+ []
+"29-Nov-23 19:39:17" - SMAR - INFO - GET for comment id: 1653332486028500999 finished! 
+ []
+"29-Nov-23 19:39:18" - SMAR - INFO - GET for comment id: 1655556677729681409 finished! 
+ []
+"29-Nov-23 19:39:18" - SMAR - INFO - GET for comment id: 1660662291644440581 finished! 
+ []
+"29-Nov-23 19:39:19" - SMAR - INFO - GET for comment id: 1653052963743473666 finished! 
+ []
+"29-Nov-23 19:39:20" - SMAR - INFO - GET for comment id: 1658895125177589760 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '19608718', 'author_username': None, 'community_notes': None, 'conversation_id': '1658780447675908098', 'created_time': '2023-05-17T18:26:51', 'favorite_count': 79, 'geo_lat': None, 'geo_lon': None, 'id': '1658901913985851402', 'in_reply_to_post_id': '1658895125177589760', 'in_reply_to_profile_id': '2903785319', 'in_reply_to_profile_username': 'tedthepyrenean', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 4, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 60, 'retweet_count': 0, 'source': None, 'text': '@tedthepyrenean Claire any evidence of all this leaching?', 'text_lang': 'en', 'text_tagged_users': ['tedthepyrenean'], 'text_tags': None, 'timestamp': 1684348011, 'view_count': 21139}]
+"29-Nov-23 19:39:20" - SMAR - INFO - GET for comment id: 1653734650538229763 finished! 
+ []
+"29-Nov-23 19:39:21" - SMAR - INFO - GET for comment id: 1662431339130355713 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '264493161', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:12:54', 'favorite_count': 1, 'geo_lat': None, 'geo_lon': None, 'id': '1662431682396561409', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': '@sheela2010 @TataCompanies @airindia Fly Emirates or Qatar Airways next time.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685189574, 'view_count': 367}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1424775855448858628', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:14:14', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662432020075798533', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia Sheela Ben next time fly with your own private jet', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685189654, 'view_count': 599}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1521075013935599616', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:24:30', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662434600793284608', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': '@sheela2010 @TataCompanies @airindia So the food trays were loaded in #Dubai', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': ['dubai'], 'timestamp': 1685190270, 'view_count': 253}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '103825091', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:29:28', 'favorite_count': 2, 'geo_lat': None, 'geo_lon': None, 'id': '1662435853040484355', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': "@sheela2010 @TataCompanies @airindia Burnt, thick, uneven, dry. My nine year old's attempts are better. We Gujaratis or any other state people are particular for rotis..Sorry to see this being served in business class!", 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685190568, 'view_count': 339}, {'attached_links_url': None, 'attached_medias_url': ['https://pbs.twimg.com/media/FxIrnFnWYAco1Kn.jpg'], 'attached_videos': None, 'author_id': '1252509133833515008', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:42:39', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662439171045347336', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia Sadly @airindia @tajsats don’t care about customer reviews..same issue was highlighted 5 months ago and I’m not surprised that the paranthas are still competing with the Indian airlines paranthas https://t.co/Q9KQPRCWhP', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010', 'tajsats'], 'text_tags': None, 'timestamp': 1685191359, 'view_count': 33}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1594872156', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:45:53', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662439985155538944', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': '@sheela2010 @TataCompanies @airindia MHTMH', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685191553, 'view_count': 366}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '212890476', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:48:19', 'favorite_count': 3, 'geo_lat': None, 'geo_lon': None, 'id': '1662440594625421312', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 2, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': '@sheela2010 @TataCompanies @airindia Such tweets (and feedbacks) are very important to improve the quality of services. I have had rotis served in Jetr Airways. They too served a full meal like this and had somehow solved this problem. With this feedback tweet I am sure @airindia will start working on this.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685191699, 'view_count': 866}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1416101599911444482', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:50:00', 'favorite_count': 3, 'geo_lat': None, 'geo_lon': None, 'id': '1662441020561186817', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': '@sheela2010 @TataCompanies @airindia Ask all of them to follow @DrKristieLeong  and @shery', 'text_lang': 'en', 'text_tagged_users': ['DrKristieLeong', 'TataCompanies', 'airindia', 'sheela2010', 'shery'], 'text_tags': None, 'timestamp': 1685191800, 'view_count': 2869}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1438544410803724289', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:50:17', 'favorite_count': 1, 'geo_lat': None, 'geo_lon': None, 'id': '1662441091357114369', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': '@sheela2010 @TataCompanies @airindia ढाबे की रोटियों को बदनाम मत करो, अच्छे अच्छे 5स्टार से अच्छी रोटियां मिलती हैं ढाबे पर वो भी गर्मागर्म!!', 'text_lang': 'hi', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685191817, 'view_count': 241}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '78633247', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:51:20', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662441354994262017', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': '@sheela2010 @TataCompanies @airindia This in unacceptable. Air India should hire some good chefs to make roti.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685191880, 'view_count': 707}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1536028256457355264', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:55:16', 'favorite_count': 6, 'geo_lat': None, 'geo_lon': None, 'id': '1662442344409620481', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 1, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': "@sheela2010 @TataCompanies @airindia Propaganda to malign Vishwaguru Modi ji.\nWhy don't you travel in Pakistan International Airlines?", 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685192116, 'view_count': 296}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '3793634414', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T12:55:44', 'favorite_count': 7, 'geo_lat': None, 'geo_lon': None, 'id': '1662442461728493568', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 1, 'retweet_count': 1, 'source': 'Twitter for Android', 'text': '@sheela2010 @TataCompanies @airindia Are you anti national? Soldiers are dying on border, Tujhe roti ki Padi hai.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685192144, 'view_count': 331}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '823496342899146752', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:11:07', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662446332630691841', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': "@sheela2010 @TataCompanies @airindia I still don't get such elite crass, dhaba is supposed to serve good and delicious food, airlines are supposed to take us from one place to another, comfort is an additional thing.", 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685193067, 'view_count': 23}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1215309118388330498', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:11:48', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662446508195840001', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': '@sheela2010 @TataCompanies @airindia Pathetic.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685193108, 'view_count': 86}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '793606693', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:12:29', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662446677184086019', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': '@sheela2010 @TataCompanies @airindia Ok, you are rich, you travel in business class, got it.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685193149, 'view_count': 27}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1583039106036027393', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:14:47', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662447257042694147', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': '@sheela2010 @TataCompanies @airindia Some people find an excuse to cry about in everything. These look like normal rotis, but maybe you prefer ghee laden dhaba-style tandoori rotis. Pack it in advance next time you travel.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685193287, 'view_count': 105}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '594630648', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:16:57', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662447803191422976', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia So the question here is - Was the food quality & customer service / experience was better / good when Air India was under Govt of India compared to what it is under Tata Sons’ control ?  Probably all those frequent business + economy class flyers of AI can share their feedback', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685193417, 'view_count': 454}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '96587038', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:21:59', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662449068222865408', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia I wish they don’t merge only premium airline India has right now: Vistara with Air India. Air Vistara brand needs to be continued for awesome flying experience.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685193719, 'view_count': 873}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1363519514466545664', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:22:33', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662449212305309697', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia To be fair Dhaba rotis will always be better than any airline food because they are made and served fresh. But I agree with general essence of tweet. AI should do better.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685193753, 'view_count': 158}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '41763568', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:31:13', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662451392244776963', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia Food is the same. It’s just the way it’s served that’s different.', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685194273, 'view_count': 904}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1597286490039623680', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T13:59:00', 'favorite_count': 2, 'geo_lat': None, 'geo_lon': None, 'id': '1662458383876718594', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia It is about the type of the food. A Roti fresh out of tandoor is very different from what it becomes 30 minutes later. Try ordering Roti online & see for yourself. Bread/Bun can be a better choice for Airlines/Railways', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685195940, 'view_count': 155}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1307363966293864450', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T14:04:03', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1662459654067109888', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter Web App', 'text': "@sheela2010 @TataCompanies @airindia can't compare 24-36 hour old assembly line prepared food kept in hot boxes with made to order fresh dhaba food or home food\n\nEverytime I visit a fancy restaurant, the first thought is wish had eaten at local favorite joint", 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685196243, 'view_count': 390}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '3123651388', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T14:14:29', 'favorite_count': 1, 'geo_lat': None, 'geo_lon': None, 'id': '1662462281534570496', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': '@sheela2010 @TataCompanies @airindia Madam we always keep our food with us while travelling, the taste of airline food is something which we cannot imagine\nIt is better to have thepala with us all the time', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685196869, 'view_count': 441}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '34871124', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T14:17:00', 'favorite_count': 1, 'geo_lat': None, 'geo_lon': None, 'id': '1662462916233416704', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': 'IN', 'place_country_name': 'India', 'place_full_name': 'Mumbai, India', 'place_type': 'city', 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': 'Twitter for Android', 'text': '@sheela2010 @TataCompanies @airindia While rotis in premium trains like shatabdi or Tejas are justva kind of punishment, @IRCTCofficial punishes us for not carrying home made food.', 'text_lang': 'en', 'text_tagged_users': ['IRCTCofficial', 'TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685197020, 'view_count': 423}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1572648817', 'author_username': None, 'community_notes': None, 'conversation_id': '1662431339130355713', 'created_time': '2023-05-27T14:18:35', 'favorite_count': 67, 'geo_lat': None, 'geo_lon': None, 'id': '1662463312637100032', 'in_reply_to_post_id': '1662431339130355713', 'in_reply_to_profile_id': '111316603', 'in_reply_to_profile_username': 'sheela2010', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 1, 'retweet_count': 4, 'source': 'Twitter for iPhone', 'text': '@sheela2010 @TataCompanies @airindia Since when have elite journos like started bothering about what people like us in cattle class suffer?', 'text_lang': 'en', 'text_tagged_users': ['TataCompanies', 'airindia', 'sheela2010'], 'text_tags': None, 'timestamp': 1685197115, 'view_count': 4468}]
+"29-Nov-23 19:39:21" - SMAR - INFO - GET for comments Completed!
+"29-Nov-23 19:39:21" - SMAR - INFO - comments are   attached_links_url attached_medias_url attached_videos            author_id author_username  ... view_count           term sentiment     tone     tweet_insert_timestamp
+0               None                None            None             19608718            None  ...      21139  Dubai economy   unknown  unknown 2023-11-29 19:39:21.818111
+1               None                None            None            264493161            None  ...        367  Dubai economy   unknown  unknown 2023-11-29 19:39:21.818111
+2               None                None            None  1424775855448858628            None  ...        599  Dubai economy   unknown  unknown 2023-11-29 19:39:21.818111
+3               None                None            None  1521075013935599616            None  ...        253  Dubai economy   unknown  unknown 2023-11-29 19:39:21.818111
+4               None                None            None            103825091            None  ...        339  Dubai economy   unknown  unknown 2023-11-29 19:39:21.818111
+
+[5 rows x 36 columns]
+"29-Nov-23 19:39:21" - SMAR - INFO - comments are written to db for Dubai economy
+"29-Nov-23 19:39:21" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:39:21] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -
+"29-Nov-23 19:39:52" - SMAR - INFO - Updating tasks for Dubai economy
+"29-Nov-23 19:40:59" - SMAR - INFO - Finished tasks for Dubai economy
+"29-Nov-23 19:41:00" - SMAR - INFO - Data is                                   attached_links_url                              attached_medias_url attached_videos  ... sentiment     tone     tweet_insert_timestamp
+0                                               None                                             None            None  ...   unknown  unknown 2023-11-29 19:41:00.509831
+1  https://www.khaleejtimes.com/business/expo-202...  https://pbs.twimg.com/media/Fsiz0mMWcAE4kYh.jpg            None  ...   unknown  unknown 2023-11-29 19:41:00.509831
+2                          https://hubs.ly/Q01JQyYf0  https://pbs.twimg.com/media/Fsj74o9WAAECzW0.png            None  ...   unknown  unknown 2023-11-29 19:41:00.509831
+3                           https://odwpr.us/3JUu7VA  https://pbs.twimg.com/media/Fsj8rRHWAAYJRhZ.jpg            None  ...   unknown  unknown 2023-11-29 19:41:00.509831
+4                             https://ift.tt/iheTqpZ                                             None            None  ...   unknown  unknown 2023-11-29 19:41:00.509831
+
+[5 rows x 36 columns]
+"29-Nov-23 19:41:00" - SMAR - INFO - New Path is data/Twitter/twitter_posts_for_Dubai-economy.csv
+"29-Nov-23 19:41:00" - SMAR - INFO - getting comments for Dubai economy
+"29-Nov-23 19:41:00" - SMAR - INFO - data is          attached_links_url                                attached_medias_url attached_videos  ...  sentiment     tone      tweet_insert_timestamp
+6                       NaN                                                NaN             NaN  ...    unknown  unknown  2023-11-29 19:41:00.509831
+7                       NaN    https://pbs.twimg.com/media/FtGIvaLXwAAaXot.jpg             NaN  ...    unknown  unknown  2023-11-29 19:41:00.509831
+9                       NaN    https://pbs.twimg.com/media/FtWkyrSXoAMzaYS.jpg             NaN  ...    unknown  unknown  2023-11-29 19:41:00.509831
+10                      NaN  https://pbs.twimg.com/media/Ftb6Wu9XgAAkpDN.jp...             NaN  ...    unknown  unknown  2023-11-29 19:41:00.509831
+12  https://trib.al/QTobfea                                                NaN             NaN  ...    unknown  unknown  2023-11-29 19:41:00.509831
+
+[5 rows x 36 columns]
+"29-Nov-23 19:41:20" - SMAR - INFO - GET for comment id: 1643285440928120839 finished! 
+ []
+"29-Nov-23 19:41:21" - SMAR - INFO - GET for comment id: 1645402491972927488 finished! 
+ []
+"29-Nov-23 19:41:22" - SMAR - INFO - GET for comment id: 1647075030637895682 finished! 
+ []
+"29-Nov-23 19:41:23" - SMAR - INFO - GET for comment id: 1648633139244290048 finished! 
+ []
+"29-Nov-23 19:41:24" - SMAR - INFO - GET for comment id: 1650064849999896576 finished! 
+ []
+"29-Nov-23 19:41:25" - SMAR - INFO - GET for comment id: 1650775408462405633 finished! 
+ []
+"29-Nov-23 19:41:26" - SMAR - INFO - GET for comment id: 1651838935369220096 finished! 
+ []
+"29-Nov-23 19:41:27" - SMAR - INFO - GET for comment id: 1652575567508635649 finished! 
+ []
+"29-Nov-23 19:41:28" - SMAR - INFO - GET for comment id: 1653052963743473666 finished! 
+ []
+"29-Nov-23 19:41:29" - SMAR - INFO - GET for comment id: 1653283252650627072 finished! 
+ []
+"29-Nov-23 19:41:29" - SMAR - INFO - GET for comment id: 1653332486028500999 finished! 
+ []
+"29-Nov-23 19:41:30" - SMAR - INFO - GET for comment id: 1654028066816163840 finished! 
+ []
+"29-Nov-23 19:41:31" - SMAR - INFO - GET for comment id: 1654123950476255239 finished! 
+ []
+"29-Nov-23 19:41:32" - SMAR - INFO - GET for comment id: 1655556677729681409 finished! 
+ []
+"29-Nov-23 19:41:32" - SMAR - INFO - GET for comment id: 1655653686264078346 finished! 
+ []
+"29-Nov-23 19:41:33" - SMAR - INFO - GET for comment id: 1656663062395629568 finished! 
+ []
+"29-Nov-23 19:41:34" - SMAR - INFO - GET for comment id: 1657005774919409664 finished! 
+ []
+"29-Nov-23 19:41:35" - SMAR - INFO - GET for comment id: 1657805361762693120 finished! 
+ []
+"29-Nov-23 19:41:35" - SMAR - INFO - GET for comment id: 1658437415709597696 finished! 
+ []
+"29-Nov-23 19:41:36" - SMAR - INFO - GET for comment id: 1658848306124947456 finished! 
+ []
+"29-Nov-23 19:41:37" - SMAR - INFO - GET for comment id: 1658928006784483328 finished! 
+ []
+"29-Nov-23 19:41:38" - SMAR - INFO - GET for comment id: 1660197734761271297 finished! 
+ []
+"29-Nov-23 19:41:39" - SMAR - INFO - GET for comment id: 1660662291644440581 finished! 
+ []
+"29-Nov-23 19:41:39" - SMAR - INFO - GET for comment id: 1661312186436681728 finished! 
+ []
+"29-Nov-23 19:41:40" - SMAR - INFO - GET for comment id: 1644245869485514753 finished! 
+ []
+"29-Nov-23 19:41:41" - SMAR - INFO - GET for comment id: 1647537461793374210 finished! 
+ []
+"29-Nov-23 19:41:42" - SMAR - INFO - GET for comment id: 1649829068550881284 finished! 
+ []
+"29-Nov-23 19:41:42" - SMAR - INFO - GET for comment id: 1650945293712588800 finished! 
+ []
+"29-Nov-23 19:41:43" - SMAR - INFO - GET for comment id: 1652652091163435010 finished! 
+ []
+"29-Nov-23 19:41:44" - SMAR - INFO - GET for comment id: 1653074101316075526 finished! 
+ []
+"29-Nov-23 19:41:45" - SMAR - INFO - GET for comment id: 1653734650538229763 finished! 
+ []
+"29-Nov-23 19:41:45" - SMAR - INFO - GET for comment id: 1654640471174696960 finished! 
+ []
+"29-Nov-23 19:41:46" - SMAR - INFO - GET for comment id: 1655913392589119489 finished! 
+ []
+"29-Nov-23 19:41:47" - SMAR - INFO - GET for comment id: 1657281477871034371 finished! 
+ []
+"29-Nov-23 19:41:48" - SMAR - INFO - GET for comment id: 1658528118368354305 finished! 
+ []
+"29-Nov-23 19:41:48" - SMAR - INFO - GET for comment id: 1658895125177589760 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '19608718', 'author_username': None, 'community_notes': None, 'conversation_id': '1658780447675908098', 'created_time': '2023-05-17T18:26:51', 'favorite_count': 79, 'geo_lat': None, 'geo_lon': None, 'id': '1658901913985851402', 'in_reply_to_post_id': '1658895125177589760', 'in_reply_to_profile_id': '2903785319', 'in_reply_to_profile_username': 'tedthepyrenean', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 4, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 60, 'retweet_count': 0, 'source': None, 'text': '@tedthepyrenean Claire any evidence of all this leaching?', 'text_lang': 'en', 'text_tagged_users': ['tedthepyrenean'], 'text_tags': None, 'timestamp': 1684348011, 'view_count': 21139}]
+"29-Nov-23 19:41:49" - SMAR - INFO - GET for comment id: 1660275179249958912 finished! 
+ []
+"29-Nov-23 19:41:50" - SMAR - INFO - GET for comment id: 1645777991924953088 finished! 
+ []
+"29-Nov-23 19:41:51" - SMAR - INFO - GET for comment id: 1650764557076267009 finished! 
+ []
+"29-Nov-23 19:41:51" - SMAR - INFO - GET for comment id: 1653044566847627268 finished! 
+ []
+"29-Nov-23 19:41:52" - SMAR - INFO - GET for comment id: 1654085549164986368 finished! 
+ []
+"29-Nov-23 19:41:53" - SMAR - INFO - GET for comment id: 1656957017142226944 finished! 
+ []
+"29-Nov-23 19:41:53" - SMAR - INFO - GET for comment id: 1658806581801238532 finished! 
+ []
+"29-Nov-23 19:41:54" - SMAR - INFO - GET for comment id: 1661279653909213185 finished! 
+ []
+"29-Nov-23 19:41:55" - SMAR - INFO - GET for comment id: 1649703326743666689 finished! 
+ []
+"29-Nov-23 19:41:56" - SMAR - INFO - GET for comment id: 1653319507275051010 finished! 
+ []
+"29-Nov-23 19:41:56" - SMAR - INFO - GET for comment id: 1658434017073537026 finished! 
+ []
+"29-Nov-23 19:41:57" - SMAR - INFO - GET for comment id: 1652219993491222528 finished! 
+ []
+"29-Nov-23 19:41:58" - SMAR - INFO - GET for comment id: 1659646354069782528 finished! 
+ []
+"29-Nov-23 19:41:59" - SMAR - INFO - GET for comment id: 1655616880814567449 finished! 
+ []
+"29-Nov-23 19:41:59" - SMAR - INFO - GET for comments Completed!
+"29-Nov-23 19:41:59" - SMAR - INFO - comments are   attached_links_url attached_medias_url attached_videos author_id author_username  ... view_count           term sentiment     tone     tweet_insert_timestamp
+0               None                None            None  19608718            None  ...      21139  Dubai economy   unknown  unknown 2023-11-29 19:41:59.160585
+
+[1 rows x 36 columns]
+"29-Nov-23 19:41:59" - SMAR - INFO - comments are written to db for Dubai economy
+"29-Nov-23 19:41:59" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 19:41:59] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -
+"29-Nov-23 20:06:18" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"29-Nov-23 20:06:18" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:06:19" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:06:19" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:07:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"29-Nov-23 20:07:28" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:07:29" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:07:29" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:07:32" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"29-Nov-23 20:07:33" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:07:34" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:07:34" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:08:23" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/keyterms.py', reloading
+"29-Nov-23 20:08:24" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:08:24" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:08:24" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:09:19" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"29-Nov-23 20:09:20" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:09:21" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:09:21" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:09:29" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/keyterms.py', reloading
+"29-Nov-23 20:09:29" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:09:30" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:09:30" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:09:38" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/keyterms.py', reloading
+"29-Nov-23 20:09:39" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:09:40" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:09:40" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:10:36" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 20:10:36] "POST /keyterm/data/twitter HTTP/1.1" 200 -
+"29-Nov-23 20:12:08" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"29-Nov-23 20:12:09" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:12:09" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:12:09" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:12:18" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"29-Nov-23 20:12:18" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:12:19" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:12:19" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:12:21" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 20:12:21] "POST /keyterm/data/twitter HTTP/1.1" 200 -

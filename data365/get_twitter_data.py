@@ -186,23 +186,31 @@ def get_twitter_comments(path: str=None, key_word:str = None):
 
 def get_twitter_data_from_db(
     terms:list[str] = None,
-    table: Literal['comments','posts'] = 'posts'
+    table: Literal['comments','posts'] = 'posts',
+    from_date:str = None,
+    to_date:str = None,
     ) -> pd.DataFrame:
     if terms == []:
         return None
 
     if table=='posts':
         sql = f"""
-        SELECT top 100 author_username --, created_time, view_count, text, tone, sentiment , geo_lat, geo_lon
+        SELECT top 100 author_username , created_time, view_count, text, tone, sentiment , geo_lat, geo_lon
         FROM twitter_posts
-        WHERE term in ('{"', '".join(terms)}');
+        WHERE term in ('{"', '".join(terms)}')
+
         """
     elif table=='comments':
         sql = f"""
         SELECT top 100 author_username , created_time, view_count, text, tone, sentiment , geo_lat, geo_lon
         FROM twitter_comments
-        WHERE term in ('{"', '".join(terms)}');
+        WHERE term in ('{"', '".join(terms)}')
+
         """
+    if from_date:
+        sql + f"WHERE created_at BETWEEN {from_date} AND {to_date}"
+
+    sql + ";"
     # print(sql)
 
     df = pd.read_sql_query(sql, sql_server_engine)
