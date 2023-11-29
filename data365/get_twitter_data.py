@@ -60,18 +60,20 @@ def update_existing_records(sql_server_engine, df, posts: bool = True):
 # Rest of your code...
 
 
-def get_twitter_posts(key_word:str = None):
+def get_twitter_posts(key_word:str = None, **kwargs):
     url = "https://api.data365.co/v1.1/twitter/search/post/posts"
     update_url = "https://api.data365.co/v1.1/twitter/search/post/update"
     status_url = "https://api.data365.co/v1.1/twitter/search/post/update"
     logger.info(f"Updating tasks for {key_word}")
     # update task for keyword
+    params={
+            **base_query_param,
+            "keywords": key_word,
+            **kwargs
+        }
     r = requests.post(
         update_url,
-        params={
-            **base_query_param,
-            "keywords": key_word
-        }
+        params=params
     )
 
     # check taskh status
@@ -79,10 +81,7 @@ def get_twitter_posts(key_word:str = None):
     finished = False
     failed = False
     while not finished:
-        r = requests.get(status_url, params={
-        **base_query_param,
-        "keywords": key_word
-        })
+        r = requests.get(status_url, params=params)
         if r.json()['data']['status'] == 'finished':
             finished = True
         elif r.json()['data']['status'] == 'failed':
@@ -100,9 +99,9 @@ def get_twitter_posts(key_word:str = None):
     data_dict = {'items': []}
     while data_available:
         if cursor:
-            data = get_data(url=url, keywords=key_word, page=cursor, params=base_query_param)
+            data = get_data(url=url, keywords=key_word, page=cursor, params=params)
         else:
-            data = get_data(url=url, keywords=key_word, params=base_query_param)
+            data = get_data(url=url, keywords=key_word, params=params)
 
         if data:
             data_dict['items'].extend(data['items'])

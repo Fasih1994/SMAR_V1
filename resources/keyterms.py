@@ -83,7 +83,7 @@ class KeytermGetData(MethodView):
     @blp.response(201, None)
     def post(self, term_data):
         try:
-            platform = term_data['platform']
+            platform = term_data.pop('platform')
             if platform != 'twitter':
                 return {"message": "Twitter not selected !"}
 
@@ -92,7 +92,7 @@ class KeytermGetData(MethodView):
             model = KeyTermSelectModel(text=term_data['text'], keyterms=term_str)
             model.save_to_db()
             for term in terms:
-                path = get_twitter_posts(term)
+                path = get_twitter_posts(term, **term_data)
 
                 if path == "":
                     return {'message': "Data not present against these terms!"}, 200
