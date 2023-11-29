@@ -608,3 +608,270 @@
 "29-Nov-23 20:12:19" - werkzeug - WARNING -  * Debugger is active!
 "29-Nov-23 20:12:19" - werkzeug - INFO -  * Debugger PIN: 143-055-466
 "29-Nov-23 20:12:21" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 20:12:21] "POST /keyterm/data/twitter HTTP/1.1" 200 -
+"29-Nov-23 20:22:28" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"29-Nov-23 20:22:28" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"29-Nov-23 20:22:28" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:22:29" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:22:29" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:23:05" - SMAR - INFO - Updating tasks for Dubai economy
+"29-Nov-23 20:23:18" - SMAR - INFO - Data is                                   attached_links_url                              attached_medias_url attached_videos  ... sentiment     tone     tweet_insert_timestamp
+0                                               None                                             None            None  ...   unknown  unknown 2023-11-29 20:23:18.560593
+1  https://www.khaleejtimes.com/business/expo-202...  https://pbs.twimg.com/media/Fsiz0mMWcAE4kYh.jpg            None  ...   unknown  unknown 2023-11-29 20:23:18.560593
+2                          https://hubs.ly/Q01JQyYf0  https://pbs.twimg.com/media/Fsj74o9WAAECzW0.png            None  ...   unknown  unknown 2023-11-29 20:23:18.560593
+3                           https://odwpr.us/3JUu7VA  https://pbs.twimg.com/media/Fsj8rRHWAAYJRhZ.jpg            None  ...   unknown  unknown 2023-11-29 20:23:18.560593
+4                             https://ift.tt/iheTqpZ                                             None            None  ...   unknown  unknown 2023-11-29 20:23:18.560593
+
+[5 rows x 36 columns]
+"29-Nov-23 20:23:19" - SMAR - INFO - New Path is data/Twitter/twitter_posts_for_Dubai-economy.csv
+"29-Nov-23 20:23:19" - SMAR - INFO - getting comments for Dubai economy
+"29-Nov-23 20:23:19" - SMAR - INFO - data is          attached_links_url                                attached_medias_url attached_videos  ...  sentiment     tone      tweet_insert_timestamp
+6                       NaN                                                NaN             NaN  ...    unknown  unknown  2023-11-29 20:23:18.560593
+7                       NaN    https://pbs.twimg.com/media/FtGIvaLXwAAaXot.jpg             NaN  ...    unknown  unknown  2023-11-29 20:23:18.560593
+9                       NaN    https://pbs.twimg.com/media/FtWkyrSXoAMzaYS.jpg             NaN  ...    unknown  unknown  2023-11-29 20:23:18.560593
+10                      NaN  https://pbs.twimg.com/media/Ftb6Wu9XgAAkpDN.jp...             NaN  ...    unknown  unknown  2023-11-29 20:23:18.560593
+12  https://trib.al/QTobfea                                                NaN             NaN  ...    unknown  unknown  2023-11-29 20:23:18.560593
+
+[5 rows x 36 columns]
+"29-Nov-23 20:25:20" - SMAR - INFO - GET for comment id: 1643285440928120839 finished! 
+ []
+"29-Nov-23 20:25:21" - SMAR - INFO - GET for comment id: 1645402491972927488 finished! 
+ []
+"29-Nov-23 20:25:22" - SMAR - INFO - GET for comment id: 1647075030637895682 finished! 
+ []
+"29-Nov-23 20:25:22" - SMAR - INFO - GET for comment id: 1648633139244290048 finished! 
+ []
+"29-Nov-23 20:25:23" - SMAR - INFO - GET for comment id: 1649829068550881284 finished! 
+ []
+"29-Nov-23 20:25:24" - SMAR - INFO - GET for comment id: 1650764557076267009 finished! 
+ []
+"29-Nov-23 20:25:24" - SMAR - INFO - GET for comment id: 1650945293712588800 finished! 
+ []
+"29-Nov-23 20:25:25" - SMAR - INFO - GET for comment id: 1652219993491222528 finished! 
+ []
+"29-Nov-23 20:25:26" - SMAR - INFO - GET for comment id: 1652652091163435010 finished! 
+ []
+"29-Nov-23 20:25:27" - SMAR - INFO - GET for comment id: 1653052963743473666 finished! 
+ []
+"29-Nov-23 20:25:27" - SMAR - INFO - GET for comment id: 1653283252650627072 finished! 
+ []
+"29-Nov-23 20:25:28" - SMAR - INFO - GET for comment id: 1653332486028500999 finished! 
+ []
+"29-Nov-23 20:25:29" - SMAR - INFO - GET for comment id: 1654028066816163840 finished! 
+ []
+"29-Nov-23 20:25:30" - SMAR - INFO - GET for comment id: 1654123950476255239 finished! 
+ []
+"29-Nov-23 20:25:30" - SMAR - INFO - GET for comment id: 1655556677729681409 finished! 
+ []
+"29-Nov-23 20:25:31" - SMAR - INFO - GET for comment id: 1655653686264078346 finished! 
+ []
+"29-Nov-23 20:25:32" - SMAR - INFO - GET for comment id: 1656663062395629568 finished! 
+ []
+"29-Nov-23 20:25:32" - SMAR - INFO - GET for comment id: 1657005774919409664 finished! 
+ []
+"29-Nov-23 20:25:34" - SMAR - INFO - GET for comment id: 1657805361762693120 finished! 
+ []
+"29-Nov-23 20:25:35" - SMAR - INFO - GET for comment id: 1658437415709597696 finished! 
+ []
+"29-Nov-23 20:25:36" - SMAR - INFO - GET for comment id: 1658806581801238532 finished! 
+ []
+"29-Nov-23 20:25:36" - SMAR - INFO - GET for comment id: 1658895125177589760 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '19608718', 'author_username': None, 'community_notes': None, 'conversation_id': '1658780447675908098', 'created_time': '2023-05-17T18:26:51', 'favorite_count': 79, 'geo_lat': None, 'geo_lon': None, 'id': '1658901913985851402', 'in_reply_to_post_id': '1658895125177589760', 'in_reply_to_profile_id': '2903785319', 'in_reply_to_profile_username': 'tedthepyrenean', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 4, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 60, 'retweet_count': 0, 'source': None, 'text': '@tedthepyrenean Claire any evidence of all this leaching?', 'text_lang': 'en', 'text_tagged_users': ['tedthepyrenean'], 'text_tags': None, 'timestamp': 1684348011, 'view_count': 21139}]
+"29-Nov-23 20:25:37" - SMAR - INFO - GET for comment id: 1659646354069782528 finished! 
+ []
+"29-Nov-23 20:25:38" - SMAR - INFO - GET for comment id: 1660275179249958912 finished! 
+ []
+"29-Nov-23 20:25:39" - SMAR - INFO - GET for comment id: 1661279653909213185 finished! 
+ []
+"29-Nov-23 20:25:39" - SMAR - INFO - GET for comment id: 1644245869485514753 finished! 
+ []
+"29-Nov-23 20:25:40" - SMAR - INFO - GET for comment id: 1647537461793374210 finished! 
+ []
+"29-Nov-23 20:25:41" - SMAR - INFO - GET for comment id: 1650064849999896576 finished! 
+ []
+"29-Nov-23 20:25:42" - SMAR - INFO - GET for comment id: 1651838935369220096 finished! 
+ []
+"29-Nov-23 20:25:43" - SMAR - INFO - GET for comment id: 1653044566847627268 finished! 
+ []
+"29-Nov-23 20:25:43" - SMAR - INFO - GET for comment id: 1653319507275051010 finished! 
+ []
+"29-Nov-23 20:25:44" - SMAR - INFO - GET for comment id: 1654085549164986368 finished! 
+ []
+"29-Nov-23 20:25:45" - SMAR - INFO - GET for comment id: 1655616880814567449 finished! 
+ []
+"29-Nov-23 20:25:46" - SMAR - INFO - GET for comment id: 1656957017142226944 finished! 
+ []
+"29-Nov-23 20:25:47" - SMAR - INFO - GET for comment id: 1658434017073537026 finished! 
+ []
+"29-Nov-23 20:25:47" - SMAR - INFO - GET for comment id: 1658848306124947456 finished! 
+ []
+"29-Nov-23 20:25:48" - SMAR - INFO - GET for comment id: 1660197734761271297 finished! 
+ []
+"29-Nov-23 20:25:49" - SMAR - INFO - GET for comment id: 1661312186436681728 finished! 
+ []
+"29-Nov-23 20:25:49" - SMAR - INFO - GET for comment id: 1645777991924953088 finished! 
+ []
+"29-Nov-23 20:25:50" - SMAR - INFO - GET for comment id: 1650775408462405633 finished! 
+ []
+"29-Nov-23 20:25:51" - SMAR - INFO - GET for comment id: 1653074101316075526 finished! 
+ []
+"29-Nov-23 20:25:52" - SMAR - INFO - GET for comment id: 1654640471174696960 finished! 
+ []
+"29-Nov-23 20:25:52" - SMAR - INFO - GET for comment id: 1657281477871034371 finished! 
+ []
+"29-Nov-23 20:25:53" - SMAR - INFO - GET for comment id: 1658928006784483328 finished! 
+ []
+"29-Nov-23 20:25:54" - SMAR - INFO - GET for comment id: 1649703326743666689 finished! 
+ []
+"29-Nov-23 20:25:54" - SMAR - INFO - GET for comment id: 1653734650538229763 finished! 
+ []
+"29-Nov-23 20:25:55" - SMAR - INFO - GET for comment id: 1658528118368354305 finished! 
+ []
+"29-Nov-23 20:25:56" - SMAR - INFO - GET for comment id: 1652575567508635649 finished! 
+ []
+"29-Nov-23 20:25:56" - SMAR - INFO - GET for comment id: 1660662291644440581 finished! 
+ []
+"29-Nov-23 20:25:57" - SMAR - INFO - GET for comment id: 1655913392589119489 finished! 
+ []
+"29-Nov-23 20:25:57" - SMAR - INFO - GET for comments Completed!
+"29-Nov-23 20:25:57" - SMAR - INFO - comments are   attached_links_url attached_medias_url attached_videos author_id author_username  ... view_count           term sentiment     tone     tweet_insert_timestamp
+0               None                None            None  19608718            None  ...      21139  Dubai economy   unknown  unknown 2023-11-29 20:25:57.673446
+
+[1 rows x 36 columns]
+"29-Nov-23 20:25:57" - SMAR - INFO - comments are written to db for Dubai economy
+"29-Nov-23 20:25:57" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 20:25:57] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -
+"29-Nov-23 20:27:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"29-Nov-23 20:27:28" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:27:29" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:27:29" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:28:30" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/data365/get_twitter_data.py', reloading
+"29-Nov-23 20:28:31" - werkzeug - INFO -  * Restarting with stat
+"29-Nov-23 20:28:32" - werkzeug - WARNING -  * Debugger is active!
+"29-Nov-23 20:28:32" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"29-Nov-23 20:28:58" - SMAR - INFO - Updating tasks for Dubai economy
+"29-Nov-23 20:28:59" - SMAR - INFO - Data present for Dubai economy not updating task
+"29-Nov-23 20:29:00" - SMAR - INFO - Data is                                   attached_links_url                              attached_medias_url attached_videos  ... sentiment     tone     tweet_insert_timestamp
+0                                               None                                             None            None  ...   unknown  unknown 2023-11-29 20:29:00.069509
+1  https://www.khaleejtimes.com/business/expo-202...  https://pbs.twimg.com/media/Fsiz0mMWcAE4kYh.jpg            None  ...   unknown  unknown 2023-11-29 20:29:00.069509
+2                          https://hubs.ly/Q01JQyYf0  https://pbs.twimg.com/media/Fsj74o9WAAECzW0.png            None  ...   unknown  unknown 2023-11-29 20:29:00.069509
+3                           https://odwpr.us/3JUu7VA  https://pbs.twimg.com/media/Fsj8rRHWAAYJRhZ.jpg            None  ...   unknown  unknown 2023-11-29 20:29:00.069509
+4                             https://ift.tt/iheTqpZ                                             None            None  ...   unknown  unknown 2023-11-29 20:29:00.069509
+
+[5 rows x 36 columns]
+"29-Nov-23 20:29:00" - SMAR - INFO - New Path is data/Twitter/twitter_posts_for_Dubai-economy.csv
+"29-Nov-23 20:29:00" - SMAR - INFO - getting comments for Dubai economy
+"29-Nov-23 20:29:00" - SMAR - INFO - data is          attached_links_url                                attached_medias_url attached_videos  ...  sentiment     tone      tweet_insert_timestamp
+6                       NaN                                                NaN             NaN  ...    unknown  unknown  2023-11-29 20:29:00.069509
+7                       NaN    https://pbs.twimg.com/media/FtGIvaLXwAAaXot.jpg             NaN  ...    unknown  unknown  2023-11-29 20:29:00.069509
+9                       NaN    https://pbs.twimg.com/media/FtWkyrSXoAMzaYS.jpg             NaN  ...    unknown  unknown  2023-11-29 20:29:00.069509
+10                      NaN  https://pbs.twimg.com/media/Ftb6Wu9XgAAkpDN.jp...             NaN  ...    unknown  unknown  2023-11-29 20:29:00.069509
+12  https://trib.al/QTobfea                                                NaN             NaN  ...    unknown  unknown  2023-11-29 20:29:00.069509
+
+[5 rows x 36 columns]
+"29-Nov-23 20:29:21" - SMAR - INFO - GET for comment id: 1643285440928120839 with conv_id: 1643285440928120839 finished! 
+ []
+"29-Nov-23 20:29:22" - SMAR - INFO - GET for comment id: 1645402491972927488 with conv_id: 1645402491972927488 finished! 
+ []
+"29-Nov-23 20:29:23" - SMAR - INFO - GET for comment id: 1647075030637895682 with conv_id: 1647075030637895682 finished! 
+ []
+"29-Nov-23 20:29:24" - SMAR - INFO - GET for comment id: 1648633139244290048 with conv_id: 1648633139244290048 finished! 
+ []
+"29-Nov-23 20:29:24" - SMAR - INFO - GET for comment id: 1649829068550881284 with conv_id: 1649803046707134464 finished! 
+ []
+"29-Nov-23 20:29:25" - SMAR - INFO - GET for comment id: 1650764557076267009 with conv_id: 1650764557076267009 finished! 
+ []
+"29-Nov-23 20:29:26" - SMAR - INFO - GET for comment id: 1650945293712588800 with conv_id: 1650945293712588800 finished! 
+ []
+"29-Nov-23 20:29:26" - SMAR - INFO - GET for comment id: 1652219993491222528 with conv_id: 1652219993491222528 finished! 
+ []
+"29-Nov-23 20:29:27" - SMAR - INFO - GET for comment id: 1652652091163435010 with conv_id: 1652652091163435010 finished! 
+ []
+"29-Nov-23 20:29:28" - SMAR - INFO - GET for comment id: 1653052963743473666 with conv_id: 1653052963743473666 finished! 
+ []
+"29-Nov-23 20:29:28" - SMAR - INFO - GET for comment id: 1653283252650627072 with conv_id: 1653283252650627072 finished! 
+ []
+"29-Nov-23 20:29:29" - SMAR - INFO - GET for comment id: 1653332486028500999 with conv_id: 1653332486028500999 finished! 
+ []
+"29-Nov-23 20:29:30" - SMAR - INFO - GET for comment id: 1654028066816163840 with conv_id: 1654028066816163840 finished! 
+ []
+"29-Nov-23 20:29:30" - SMAR - INFO - GET for comment id: 1654123950476255239 with conv_id: 1654123950476255239 finished! 
+ []
+"29-Nov-23 20:29:31" - SMAR - INFO - GET for comment id: 1655556677729681409 with conv_id: 1655556677729681409 finished! 
+ []
+"29-Nov-23 20:29:32" - SMAR - INFO - GET for comment id: 1655653686264078346 with conv_id: 1655653686264078346 finished! 
+ []
+"29-Nov-23 20:29:33" - SMAR - INFO - GET for comment id: 1656663062395629568 with conv_id: 1656663062395629568 finished! 
+ []
+"29-Nov-23 20:29:33" - SMAR - INFO - GET for comment id: 1657005774919409664 with conv_id: 1657005774919409664 finished! 
+ []
+"29-Nov-23 20:29:34" - SMAR - INFO - GET for comment id: 1657805361762693120 with conv_id: 1657805361762693120 finished! 
+ []
+"29-Nov-23 20:29:35" - SMAR - INFO - GET for comment id: 1658437415709597696 with conv_id: 1658437415709597696 finished! 
+ []
+"29-Nov-23 20:29:35" - SMAR - INFO - GET for comment id: 1658806581801238532 with conv_id: 1658780447675908098 finished! 
+ []
+"29-Nov-23 20:29:36" - SMAR - INFO - GET for comment id: 1658895125177589760 with conv_id: 1658780447675908098 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '19608718', 'author_username': None, 'community_notes': None, 'conversation_id': '1658780447675908098', 'created_time': '2023-05-17T18:26:51', 'favorite_count': 79, 'geo_lat': None, 'geo_lon': None, 'id': '1658901913985851402', 'in_reply_to_post_id': '1658895125177589760', 'in_reply_to_profile_id': '2903785319', 'in_reply_to_profile_username': 'tedthepyrenean', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': None, 'quote_count': 4, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 60, 'retweet_count': 0, 'source': None, 'text': '@tedthepyrenean Claire any evidence of all this leaching?', 'text_lang': 'en', 'text_tagged_users': ['tedthepyrenean'], 'text_tags': None, 'timestamp': 1684348011, 'view_count': 21139}]
+"29-Nov-23 20:29:37" - SMAR - INFO - GET for comment id: 1659646354069782528 with conv_id: 1659644555216527360 finished! 
+ []
+"29-Nov-23 20:29:39" - SMAR - INFO - GET for comment id: 1644245869485514753 with conv_id: 1644245869485514753 finished! 
+ []
+"29-Nov-23 20:29:40" - SMAR - INFO - GET for comment id: 1647537461793374210 with conv_id: 1647537461793374210 finished! 
+ []
+"29-Nov-23 20:29:40" - SMAR - INFO - GET for comment id: 1650064849999896576 with conv_id: 1650064849999896576 finished! 
+ []
+"29-Nov-23 20:29:41" - SMAR - INFO - GET for comment id: 1651838935369220096 with conv_id: 1651838935369220096 finished! 
+ []
+"29-Nov-23 20:29:42" - SMAR - INFO - GET for comment id: 1653044566847627268 with conv_id: 1653044566847627268 finished! 
+ []
+"29-Nov-23 20:29:42" - SMAR - INFO - GET for comment id: 1653319507275051010 with conv_id: 1653319507275051010 finished! 
+ []
+"29-Nov-23 20:29:43" - SMAR - INFO - GET for comment id: 1654085549164986368 with conv_id: 1654085549164986368 finished! 
+ []
+"29-Nov-23 20:29:44" - SMAR - INFO - GET for comment id: 1655616880814567449 with conv_id: 1655616873688334337 finished! 
+ []
+"29-Nov-23 20:29:44" - SMAR - INFO - GET for comment id: 1656957017142226944 with conv_id: 1656957017142226944 finished! 
+ []
+"29-Nov-23 20:29:45" - SMAR - INFO - GET for comment id: 1658434017073537026 with conv_id: 1658434017073537026 finished! 
+ []
+"29-Nov-23 20:29:46" - SMAR - INFO - GET for comment id: 1658848306124947456 with conv_id: 1658837149851025414 finished! 
+ []
+"29-Nov-23 20:29:46" - SMAR - INFO - GET for comment id: 1660197734761271297 with conv_id: 1660197734761271297 finished! 
+ []
+"29-Nov-23 20:29:47" - SMAR - INFO - GET for comment id: 1660662291644440581 with conv_id: 1660662291644440581 finished! 
+ []
+"29-Nov-23 20:29:48" - SMAR - INFO - GET for comment id: 1661312186436681728 with conv_id: 1661312186436681728 finished! 
+ []
+"29-Nov-23 20:29:48" - SMAR - INFO - GET for comment id: 1645777991924953088 with conv_id: 1645777991924953088 finished! 
+ []
+"29-Nov-23 20:29:49" - SMAR - INFO - GET for comment id: 1650775408462405633 with conv_id: 1650775408462405633 finished! 
+ []
+"29-Nov-23 20:29:50" - SMAR - INFO - GET for comment id: 1653074101316075526 with conv_id: 1653074098916827140 finished! 
+ []
+"29-Nov-23 20:29:50" - SMAR - INFO - GET for comment id: 1654640471174696960 with conv_id: 1654640471174696960 finished! 
+ []
+"29-Nov-23 20:29:51" - SMAR - INFO - GET for comment id: 1657281477871034371 with conv_id: 1657281477871034371 finished! 
+ []
+"29-Nov-23 20:29:52" - SMAR - INFO - GET for comment id: 1658928006784483328 with conv_id: 1658928006784483328 finished! 
+ []
+"29-Nov-23 20:29:53" - SMAR - INFO - GET for comment id: 1661279653909213185 with conv_id: 1661279653909213185 finished! 
+ []
+"29-Nov-23 20:29:53" - SMAR - INFO - GET for comment id: 1649703326743666689 with conv_id: 1649703326743666689 finished! 
+ []
+"29-Nov-23 20:29:54" - SMAR - INFO - GET for comment id: 1653734650538229763 with conv_id: 1653734650538229763 finished! 
+ []
+"29-Nov-23 20:29:55" - SMAR - INFO - GET for comment id: 1658528118368354305 with conv_id: 1658528118368354305 finished! 
+ []
+"29-Nov-23 20:29:55" - SMAR - INFO - GET for comment id: 1652575567508635649 with conv_id: 1652575567508635649 finished! 
+ []
+"29-Nov-23 20:29:56" - SMAR - INFO - GET for comment id: 1660275179249958912 with conv_id: 1660275176880189440 finished! 
+ []
+"29-Nov-23 20:29:57" - SMAR - INFO - GET for comment id: 1655913392589119489 with conv_id: 1655913392589119489 finished! 
+ []
+"29-Nov-23 20:29:57" - SMAR - INFO - GET for comments Completed!
+"29-Nov-23 20:29:57" - SMAR - INFO - comments are   attached_links_url attached_medias_url attached_videos author_id author_username  ... view_count           term sentiment     tone     tweet_insert_timestamp
+0               None                None            None  19608718            None  ...      21139  Dubai economy   unknown  unknown 2023-11-29 20:29:57.308114
+
+[1 rows x 36 columns]
+"29-Nov-23 20:29:57" - SMAR - INFO - comments are written to db for Dubai economy
+"29-Nov-23 20:29:57" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 20:29:57] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -

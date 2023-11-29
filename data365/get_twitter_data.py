@@ -71,27 +71,33 @@ def get_twitter_posts(key_word:str = None, **kwargs):
             "keywords": key_word,
             **kwargs
         }
-    r = requests.post(
-        update_url,
-        params=params
-    )
+    data = get_data(url=url, keywords=key_word, params=params)
+    if data['items'] == []:
+        logger.info(f'Data not present for {key_word} updating task')
+        r = requests.post(
+            update_url,
+            params=params
+        )
 
-    # check taskh status
+        # check taskh status
 
-    finished = False
-    failed = False
-    while not finished:
-        r = requests.get(status_url, params=params)
-        if r.json()['data']['status'] == 'finished':
-            finished = True
-        elif r.json()['data']['status'] == 'failed':
-            failed = True
-        if not finished:
-            time.sleep(2)
-    logger.info(f"Finished tasks for {key_word}")
+        finished = False
+        failed = False
+        while not finished:
+            r = requests.get(status_url, params=params)
+            if r.json()['data']['status'] == 'finished':
+                finished = True
+            elif r.json()['data']['status'] == 'failed':
+                failed = True
+            if not finished:
+                time.sleep(2)
+        logger.info(f"Finished tasks for {key_word}")
+
+        if failed: return None
+    else:
+        logger.info(f'Data present for {key_word} not updating task')
 
 
-    if failed: return None
 
     data_available = True
     page = 1
@@ -161,7 +167,7 @@ def get_twitter_comments(path: str=None, key_word:str = None):
                 new_url = url.format(post_id=tweets_with_reply.loc[i,'id'], section='feed', profile_id=tweets_with_reply.loc[i,'author_id'])
                 r = requests.get(url=new_url, params=params)
                 items = r.json()['data']['items']
-                logger.info(f"GET for comment id: {tweets_with_reply.loc[i,'id']} finished! \n {items}")
+                logger.info(f"GET for comment id: {tweets_with_reply.loc[i,'id']} with conv_id: {tweets_with_reply.loc[i,'conversation_id']} finished! \n {items}")
                 data['items'].extend(items)
                 items = None
             elif r.json()['data']['status'] == 'failed':
