@@ -106,6 +106,7 @@ class GooglePlaces(MethodView):
     @blp.response(200, None)
     def get(self, term_data):
         _id = term_data['id']
+        includedType = term_data.get('includedType')
         params = {
             'place_id': _id,
             'fields': 'name,rating,formatted_phone_number,reviews,geometry,types,plus_code',
@@ -125,7 +126,7 @@ class GooglePlaces(MethodView):
             if res.status_code != 200:
                 raise ValueError
             data = res.json()
-            place = save_places(data,place_id=_id)
+            place = save_places(data, place_id=_id, category=includedType)
             # return res.json()
 
         except ValueError as e:
