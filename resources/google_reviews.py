@@ -132,7 +132,7 @@ class GooglePlaces(MethodView):
             if res.status_code != 200:
                 raise ValueError
             data = res.json()
-            pprint(data)
+            # pprint(data)
             place = save_places(data, place_id=_id, category=includedType)
 
 

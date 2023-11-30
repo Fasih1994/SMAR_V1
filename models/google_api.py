@@ -1,11 +1,12 @@
 from db import db
+from sqlalchemy.dialects.mssql import NVARCHAR
 
 
 class Place(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     place_id = db.Column(db.String(255), default=None)
     formatted_phone_number = db.Column(db.String(20))
-    name = db.Column(db.String(255))
+    name = db.Column(NVARCHAR(255))
     rating = db.Column(db.Float)
     lat = db.Column(db.Float)
     lng = db.Column(db.Float)
@@ -31,7 +32,7 @@ class Place(db.Model):
 
 class Review(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    author_name = db.Column(db.String(255))
+    author_name = db.Column(NVARCHAR(255))
     rating = db.Column(db.Float)
     text = db.Column(db.Text)
     time = db.Column(db.Integer)

@@ -14,8 +14,11 @@ def sqlcol(dfparam):
 
     dtypedict = {}
     for i,j in zip(dfparam.columns, dfparam.dtypes):
-        if "object" in str(j):
-            dtypedict.update({i: types.NVARCHAR(length=255)})
+        if "object" in str(j) and str(i)!='text':
+            dtypedict.update({i: types.NVARCHAR()})
+
+        if "text" == str(i):
+            dtypedict.update({i: types.VARCHAR()})
 
         if "datetime" in str(j):
             dtypedict.update({i: types.DateTime()})
