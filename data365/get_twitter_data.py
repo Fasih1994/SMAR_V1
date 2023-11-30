@@ -72,7 +72,7 @@ def get_twitter_posts(key_word:str = None, **kwargs):
             **kwargs
         }
     data = get_data(url=url, keywords=key_word, params=params)
-    if data['items'] == []:
+    if not data or data['items'] == []:
         logger.info(f'Data not present for {key_word} updating task')
         r = requests.post(
             update_url,

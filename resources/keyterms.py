@@ -92,7 +92,8 @@ class KeytermGetData(MethodView):
             model = KeyTermSelectModel(text=term_data['text'], keyterms=term_str)
             model.save_to_db()
             for term in terms:
-                path = get_twitter_posts(term, **term_data)
+                term = term.lower()
+                path = get_twitter_posts(key_word=term, **term_data)
 
                 if path == "":
                     return {'message': "Data not present against these terms!"}, 200
