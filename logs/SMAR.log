@@ -875,3 +875,326 @@
 [1 rows x 36 columns]
 "29-Nov-23 20:29:57" - SMAR - INFO - comments are written to db for Dubai economy
 "29-Nov-23 20:29:57" - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 20:29:57] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -
+"30-Nov-23 12:18:52" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"30-Nov-23 12:18:52" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Nov-23 12:18:52" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:18:53" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:18:53" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:19:05" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:19:05] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:19:17" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:19:17] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"30-Nov-23 12:23:47" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:23:47" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:23:48" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:23:48" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:23:53" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:23:53] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"30-Nov-23 12:25:17" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:25:18" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:25:19" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:25:19" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:25:22" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:25:22] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"30-Nov-23 12:26:38" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:26:38" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:26:39" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:26:39" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:26:47" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:26:47] "GET /keyterm/google/place-data?id=ChIJQf800DFDXz4R93f6SHN6O6g HTTP/1.1" 200 -
+"30-Nov-23 12:26:54" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:26:54" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:26:55" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:26:55" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:27:34" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:27:34] "GET /keyterm/google/place-data?id=ChIJo2OpWzRdXz4RLQAI98b2_iE HTTP/1.1" 200 -
+"30-Nov-23 12:28:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_api.py', reloading
+"30-Nov-23 12:28:28" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:28:29" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:28:29" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:28:55" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:28:55" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:28:56" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:28:56" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:29:02" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:29:02] "GET /keyterm/google/place-data?id=ChIJo2OpWzRdXz4RLQAI98b2_iE HTTP/1.1" 200 -
+"30-Nov-23 12:29:39" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:29:40" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:29:41" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:29:41" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:29:45" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:29:45] "[35m[1mGET /keyterm/google/place-data?id=ChIJo2OpWzRdXz4RLQAI98b2_iE HTTP/1.1[0m" 500 -
+"30-Nov-23 12:31:24" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:31:24" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:31:25" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:31:25" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:32:13" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:32:13" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:32:14" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:32:14" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:32:22" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:32:22" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:32:23" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:32:23" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:32:29" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:32:29] "GET /keyterm/google/place-data?id=ChIJo2OpWzRdXz4RLQAI98b2_iE HTTP/1.1" 200 -
+"30-Nov-23 12:33:17" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:33:18" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:33:18" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:33:18" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:33:31" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:33:31" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:33:32" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:33:32" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:33:35" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:33:35] "GET /keyterm/google/place-data?id=ChIJo2OpWzRdXz4RLQAI98b2_iE HTTP/1.1" 200 -
+"30-Nov-23 12:34:51" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:34:51" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:34:52" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:34:52" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:34:55" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:34:55] "GET /keyterm/google/place-data?id=ChIJo2OpWzRdXz4RLQAI98b2_iE HTTP/1.1" 200 -
+"30-Nov-23 12:35:03" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:35:03" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:35:04" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:35:04" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:35:06" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:35:06] "GET /keyterm/google/place-data?id=ChIJo2OpWzRdXz4RLQAI98b2_iE HTTP/1.1" 200 -
+"30-Nov-23 12:43:06" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:43:06" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:43:07" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:43:07" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:43:23" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_reviews.py', reloading
+"30-Nov-23 12:43:23" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:43:24" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:43:24" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:43:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_reviews.py', reloading
+"30-Nov-23 12:43:28" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:43:29" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:43:29" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:43:38" - SMAR - ERROR - 
+"30-Nov-23 12:43:38" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:43:38] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 12:45:15" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"30-Nov-23 12:45:15" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Nov-23 12:45:15" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:45:16" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:45:16" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:45:27" - SMAR - ERROR - 
+"30-Nov-23 12:45:27" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:45:27] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 12:45:53" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:45:53" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:45:54" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:45:54" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:46:40" - SMAR - ERROR - 
+"30-Nov-23 12:46:40" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:46:40] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 12:46:53" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:46:54" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:46:54" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:46:54" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:46:57" - SMAR - ERROR - 
+"30-Nov-23 12:46:57" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:46:57] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 12:51:00" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:51:00" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:51:01" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:51:01" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:51:33" - SMAR - ERROR - 
+"30-Nov-23 12:51:33" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:51:33] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 12:52:12" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:52:12] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:52:44" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:52:44] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:53:23" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:53:23" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:53:24" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:53:24" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:53:25" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:53:25" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:53:26" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:53:26" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:53:33" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:53:33] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:54:22" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:54:22" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:54:23" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:54:23" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:57:22" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:57:22" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:57:23" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:57:23" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:57:29" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:57:29] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:58:04" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:58:04" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:58:05" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:58:05" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:58:19" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:58:19] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:58:38" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:58:38" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:58:39" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:58:39" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:58:43" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:58:43] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:59:12" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:59:12" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:59:13" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:59:13" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:59:17" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:59:17] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 12:59:27" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 12:59:27" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 12:59:28" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 12:59:28" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 12:59:45" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 12:59:45] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:00:13" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:00:13" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:00:14" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:00:14" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:00:19" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:00:19] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:00:29" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:00:30" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:00:31" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:00:31" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:00:59" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:00:59" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:01:00" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:01:00" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:01:13" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_reviews.py', reloading
+"30-Nov-23 13:01:14" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:01:15" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:01:15" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:01:26" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:01:26" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:01:27" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:01:27" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:01:54" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:01:54] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:02:04" - SMAR - ERROR - 
+"30-Nov-23 13:02:04" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:02:04] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 13:02:16" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:02:16] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:02:59" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:02:59] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:15:30" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:15:30] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:17:28" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:17:28] "GET /keyterm/google/place-data?id=ChIJRRsKjtw-sz4R5xhhlSlDhZU HTTP/1.1" 200 -
+"30-Nov-23 13:18:16" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:18:16" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:18:17" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:18:17" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:18:22" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:18:22] "GET /keyterm/google/place-data?id=ChIJRRsKjtw-sz4R5xhhlSlDhZU HTTP/1.1" 200 -
+"30-Nov-23 13:18:29" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:18:30" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:18:31" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:18:31" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:18:36" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:18:36] "GET /keyterm/google/place-data?id=ChIJRRsKjtw-sz4R5xhhlSlDhZU HTTP/1.1" 200 -
+"30-Nov-23 13:19:05" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:19:05" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:19:06" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:19:06" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:19:09" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:19:09] "GET /keyterm/google/place-data?id=ChIJRRsKjtw-sz4R5xhhlSlDhZU HTTP/1.1" 200 -
+"30-Nov-23 13:19:17" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:19:18" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:19:19" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:19:19" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:20:16" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:20:16" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:20:17" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:20:17" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:20:24" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:20:24] "GET /keyterm/google/place-data?id=ChIJRRsKjtw-sz4R5xhhlSlDhZU HTTP/1.1" 200 -
+"30-Nov-23 13:21:35" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:21:35] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:21:58" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:21:58] "GET /keyterm/google/place-data?id=ChIJbyMOEThdXz4RUngxsVNxMEc HTTP/1.1" 200 -
+"30-Nov-23 13:22:39" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:22:39] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:22:52" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:22:52] "GET /keyterm/google/place-data?id=ChIJ2bpUBlNmXj4RLjmuKkgGA_Q HTTP/1.1" 200 -
+"30-Nov-23 13:26:50" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_reviews.py', reloading
+"30-Nov-23 13:26:51" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:26:51" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:26:51" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:28:50" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/models/google_api.py', reloading
+"30-Nov-23 13:28:50" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:28:51" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:28:51" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:29:58" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:29:58" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:29:59" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:29:59" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:32:28" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:32:28" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:32:29" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:32:29" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:33:34" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/schemas/google_api.py', reloading
+"30-Nov-23 13:33:34" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:33:35" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:33:35" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:34:04" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:34:05" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:34:06" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:34:06" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:34:12" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:34:12" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:34:13" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:34:13" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:36:20" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:36:20] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:37:56" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:37:56" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:37:57" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:37:57" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:38:10" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:38:10] "[35m[1mGET /keyterm/google/place-data?id=ChIJheLAomRmXj4R7xv6djEMn3Q&includeType=hospital HTTP/1.1[0m" 500 -
+"30-Nov-23 13:41:52" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"30-Nov-23 13:41:52" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Nov-23 13:41:52" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:41:53" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:41:53" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:42:05" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:42:05] "GET /keyterm/google/place-data?id=ChIJheLAomRmXj4R7xv6djEMn3Q&includeType=hospital HTTP/1.1" 200 -
+"30-Nov-23 13:43:25" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:43:25] "[35m[1mGET /keyterm/google/place-data?id=ChIJcbEUJM5nXj4RX5-DNeaSyXY HTTP/1.1[0m" 500 -
+"30-Nov-23 13:46:41" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:46:41" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:46:42" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:46:42" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:47:06" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:47:06] "[35m[1mGET /keyterm/google/place-data?id=ChIJcbEUJM5nXj4RX5-DNeaSyXY HTTP/1.1[0m" 500 -
+"30-Nov-23 13:48:39" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:48:39" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:48:40" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:48:40" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:48:44" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:48:44] "GET /keyterm/google/place-data?id=ChIJcbEUJM5nXj4RX5-DNeaSyXY HTTP/1.1" 200 -
+"30-Nov-23 13:51:33" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:51:34" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:51:34" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:51:34" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:52:21" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:52:21" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:52:22" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:52:22" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:52:32" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"30-Nov-23 13:52:32" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Nov-23 13:52:32" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:52:33" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:52:33" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:53:50" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:53:50] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:54:11" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:54:11] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:54:37" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:54:37] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:54:49" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:54:49] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:55:14" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:55:14] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:55:30" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:55:30] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:55:40" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:55:40] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 13:57:33" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 13:57:33" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:58:47" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"30-Nov-23 13:58:47" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Nov-23 13:58:47" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 13:58:48" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 13:58:48" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 13:59:19" - SMAR - ERROR - 
+"30-Nov-23 13:59:19" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 13:59:19] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 14:00:40" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 14:00:40" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 14:00:41" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 14:00:41" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 14:00:44" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 14:00:45" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 14:00:45" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 14:00:45" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 14:00:51" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 14:00:51" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 14:00:52" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 14:00:52" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 14:00:59" - SMAR - ERROR - 
+"30-Nov-23 14:00:59" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 14:00:59] "[35m[1mPOST /keyterm/google/place-id HTTP/1.1[0m" 500 -
+"30-Nov-23 14:01:45" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 14:01:45" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 14:01:46" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 14:01:46" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 14:01:56" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 14:01:56] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 14:02:07" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 14:02:07] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 14:02:21" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 14:02:21" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 14:02:22" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 14:02:22" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 14:02:23" - werkzeug - INFO -  * Detected change in '/home/fasih/SMAR_BACKEND/resources/google_reviews.py', reloading
+"30-Nov-23 14:02:24" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 14:02:25" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 14:02:25" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 14:02:36" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 14:02:36] "POST /keyterm/google/place-id HTTP/1.1" 200 -
+"30-Nov-23 14:03:04" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 14:03:04] "GET /keyterm/google/place-data?id=ChIJW0MDmn1nXj4RDvG4IntT30U HTTP/1.1" 200 -

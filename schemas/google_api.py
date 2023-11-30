@@ -12,7 +12,9 @@ class PlaceSchema(Schema):
     reviews = fields.Nested(ReviewSchema, many=True)
 
     class Meta:
-        fields = ('id', 'formatted_phone_number', 'name', 'rating', 'lat', 'lng', 'reviews')
+        fields = ('id', 'formatted_phone_number',
+                  'name', 'rating', 'lat', 'lng',
+                  'reviews', 'city', 'category')
 
 class ApiResponseSchema(Schema):
     result = fields.Nested(PlaceSchema)

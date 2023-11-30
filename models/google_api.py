@@ -9,6 +9,8 @@ class Place(db.Model):
     rating = db.Column(db.Float)
     lat = db.Column(db.Float)
     lng = db.Column(db.Float)
+    category = db.Column(db.String(255))
+    city = db.Column(db.String(255))
 
     def save_to_db(self):
         db.session.add(self)

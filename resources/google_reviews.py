@@ -18,16 +18,21 @@ logger = get_logger('SMAR')
 HEADERS = {
     'Content-Type': 'application/json',
     'X-Goog-Api-Key': os.environ.get("GOOGLE_API_KEY"),
-    'X-Goog-FieldMask': 'places.id,places.displayName,places.formattedAddress'
+    'X-Goog-FieldMask': 'places.id,places.displayName,places.formattedAddress,places.types'
 }
 GOOGLE_PLACE_ID_URL = 'https://places.googleapis.com/v1/places:searchText'
 GOOGLE_PLACE_DATA_URL = 'https://maps.googleapis.com/maps/api/place/details/json'
 
 
-def save_places(places_data: Dict = None, place_id: str = None) -> Place:
+def save_places(
+    places_data: Dict = None,
+    place_id: str = None,
+    category: str = None) -> Place:
     # print(places_data.keys())
     place_data = places_data['result']
     reviews_data = places_data['result']['reviews']
+    category = category if category else place_data.get('types',[None])[0]
+    city = " ".join(place_data['plus_code']['compound_code'].split(' ')[1:])
 
     new_place = Place(
         place_id=place_id,
@@ -35,22 +40,24 @@ def save_places(places_data: Dict = None, place_id: str = None) -> Place:
         name=place_data.get('name'),
         rating=place_data.get('rating'),
         lat=place_data['geometry']['location']['lat'],
-        lng=place_data['geometry']['location']['lng']
+        lng=place_data['geometry']['location']['lng'],
+        category=category.capitalize(),
+        city=city
     )
     new_place.save_to_db()
 
     for review_data in reviews_data:
         new_review = Review(
-            author_name=review_data['author_name'],
-            rating=review_data['rating'],
-            text=review_data['text'],
-            time=review_data['time'],
-            translated=review_data['translated'],
-            profile_photo_url=review_data['profile_photo_url'],
-            relative_time_description=review_data['relative_time_description'],
-            author_url=review_data['author_url'],
-            language=review_data['language'],
-            original_language=review_data['original_language'],
+            author_name=review_data.get('author_name'),
+            rating=review_data.get('rating'),
+            text=review_data.get('text'),
+            time=review_data.get('time'),
+            translated=review_data.get('translated'),
+            profile_photo_url=review_data.get('profile_photo_url'),
+            relative_time_description=review_data.get('relative_time_description'),
+            author_url=review_data.get('author_url'),
+            language=review_data.get('language'),
+            original_language=review_data.get('original_language'),
             place=new_place
         )
         new_review.save_to_db()
@@ -65,10 +72,17 @@ class GooglePlaces(MethodView):
     @blp.arguments(GoooglePlaceDataSchema)
     @blp.response(200, None)
     def post(self, term_data):
-        text = term_data['text']
-        post_data = {
-            "textQuery" : text
-        }
+        text = term_data.pop('text')
+        category = term_data.get('includedType')
+        if category:
+            post_data = {
+                "textQuery": text + f' {category}',
+                "includedType": category
+            }
+        else:
+           post_data = {
+                "textQuery": text
+            }
 
         try:
             res = requests.post(
@@ -94,7 +108,7 @@ class GooglePlaces(MethodView):
         _id = term_data['id']
         params = {
             'place_id': _id,
-            'fields': 'name,rating,formatted_phone_number,reviews,geometry',
+            'fields': 'name,rating,formatted_phone_number,reviews,geometry,types,plus_code',
             'key': os.environ.get("GOOGLE_API_KEY")
         }
 
@@ -112,6 +126,7 @@ class GooglePlaces(MethodView):
                 raise ValueError
             data = res.json()
             place = save_places(data,place_id=_id)
+            # return res.json()
 
         except ValueError as e:
             print(e)
