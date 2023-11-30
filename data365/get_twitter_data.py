@@ -132,7 +132,9 @@ def get_twitter_posts(key_word:str = None, **kwargs):
         logger.info(f"Data is {df.head()}")
         write_path = f"data/Twitter/twitter_posts_for_{'-'.join(key_word.split())}.csv"
         df.to_csv(write_path, index=False)
-        df.to_sql('twitter_posts', sql_server_engine, if_exists='append', index=False)
+        df.to_sql(
+            'twitter_posts', sql_server_engine,
+            if_exists='append', index=False, encoding='utf-8')
 
         # update_existing_records(sql_server_engine, df)
         return write_path
@@ -206,7 +208,9 @@ def get_twitter_comments(path: str=None, key_word:str = None):
 
         logger.info(f"comments are {comments.head()}")
         # comments_to_insert = update_existing_records(sql_server_engine, comments, posts=False)
-        comments.to_sql('twitter_comments', sql_server_engine, if_exists='append', index=False)
+        comments.to_sql(
+            'twitter_comments', sql_server_engine,
+            if_exists='append', index=False, encoding='utf-8')
         logger.info(f"comments are written to db for {key_word}")
 
 
