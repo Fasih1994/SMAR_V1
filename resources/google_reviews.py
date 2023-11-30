@@ -75,6 +75,7 @@ class GooglePlaces(MethodView):
         text = term_data.pop('text')
         category = term_data.get('includedType')
         if category:
+            category = category.lower()
             post_data = {
                 "textQuery": text + f' {category}',
                 "includedType": category
