@@ -1,6 +1,7 @@
 import os
 import requests
 from typing import Dict
+from pprint import pprint
 
 from flask.views import MethodView
 from flask_smorest import Blueprint, abort
@@ -30,9 +31,13 @@ def save_places(
     category: str = None) -> Place:
     # print(places_data.keys())
     place_data = places_data['result']
-    reviews_data = places_data['result']['reviews']
+    reviews_data = place_data.get('reviews')
     category = category if category else place_data.get('types',[None])[0]
-    city = " ".join(place_data['plus_code']['compound_code'].split(' ')[1:])
+    plus_code = place_data.get('plus_code')
+    if plus_code:
+        city = " ".join(place_data['plus_code']['compound_code'].split(' ')[1:])
+    else:
+        city = 'Unknown'
 
     new_place = Place(
         place_id=place_id,
@@ -45,22 +50,22 @@ def save_places(
         city=city
     )
     new_place.save_to_db()
-
-    for review_data in reviews_data:
-        new_review = Review(
-            author_name=review_data.get('author_name'),
-            rating=review_data.get('rating'),
-            text=review_data.get('text'),
-            time=review_data.get('time'),
-            translated=review_data.get('translated'),
-            profile_photo_url=review_data.get('profile_photo_url'),
-            relative_time_description=review_data.get('relative_time_description'),
-            author_url=review_data.get('author_url'),
-            language=review_data.get('language'),
-            original_language=review_data.get('original_language'),
-            place=new_place
-        )
-        new_review.save_to_db()
+    if reviews_data:
+        for review_data in reviews_data:
+            new_review = Review(
+                author_name=review_data.get('author_name'),
+                rating=review_data.get('rating'),
+                text=review_data.get('text'),
+                time=review_data.get('time'),
+                translated=review_data.get('translated'),
+                profile_photo_url=review_data.get('profile_photo_url'),
+                relative_time_description=review_data.get('relative_time_description'),
+                author_url=review_data.get('author_url'),
+                language=review_data.get('language'),
+                original_language=review_data.get('original_language'),
+                place=new_place
+            )
+            new_review.save_to_db()
 
     return new_place
 
@@ -127,8 +132,9 @@ class GooglePlaces(MethodView):
             if res.status_code != 200:
                 raise ValueError
             data = res.json()
+            pprint(data)
             place = save_places(data, place_id=_id, category=includedType)
-            # return res.json()
+
 
         except ValueError as e:
             print(e)
