@@ -1444,3 +1444,152 @@
  []
 "30-Nov-23 15:57:35" - SMAR - INFO - GET for comment id: 1728378939989770330 with conv_id: 1728370657577373759 finished! 
  []
+"30-Nov-23 15:57:40" - SMAR - INFO - GET for comment id: 1729084873590394975 with conv_id: 1729084873590394975 finished! 
+ []
+"30-Nov-23 15:57:40" - SMAR - INFO - GET for comments Completed!
+"30-Nov-23 15:57:40" - SMAR - INFO - comments are   attached_links_url  ...     tweet_insert_timestamp
+0               None  ... 2023-11-30 15:57:40.840446
+1               None  ... 2023-11-30 15:57:40.840446
+2               None  ... 2023-11-30 15:57:40.840446
+3               None  ... 2023-11-30 15:57:40.840446
+4               None  ... 2023-11-30 15:57:40.840446
+
+[5 rows x 36 columns]
+"30-Nov-23 15:57:40" - SMAR - INFO - comments are written to db for dubai economy
+"30-Nov-23 15:57:40" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 15:57:40] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -
+"30-Nov-23 17:54:03" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+"30-Nov-23 17:54:03" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"30-Nov-23 17:54:03" - werkzeug - INFO -  * Restarting with stat
+"30-Nov-23 17:54:04" - werkzeug - WARNING -  * Debugger is active!
+"30-Nov-23 17:54:04" - werkzeug - INFO -  * Debugger PIN: 143-055-466
+"30-Nov-23 17:54:19" - SMAR - INFO - Updating tasks for dubai economy
+"30-Nov-23 17:54:20" - SMAR - INFO - Data present for dubai economy not updating task
+"30-Nov-23 17:54:21" - SMAR - INFO - Data is         attached_links_url  ...     tweet_insert_timestamp
+0  https://reut.rs/47p0WEK  ... 2023-11-30 17:54:21.791249
+1    http://dlvr.it/Sz8cmw  ... 2023-11-30 17:54:21.791249
+2    http://dlvr.it/Sz8xlG  ... 2023-11-30 17:54:21.791249
+3    http://dlvr.it/Sz8xll  ... 2023-11-30 17:54:21.791249
+4    http://dlvr.it/Sz8xlz  ... 2023-11-30 17:54:21.791249
+
+[5 rows x 36 columns]
+"30-Nov-23 17:54:23" - SMAR - INFO - New Path is data/Twitter/twitter_posts_for_dubai-economy.csv
+"30-Nov-23 17:54:23" - SMAR - INFO - getting comments for dubai economy
+"30-Nov-23 17:54:23" - SMAR - INFO - data is          attached_links_url  ...      tweet_insert_timestamp
+0   https://reut.rs/47p0WEK  ...  2023-11-30 17:54:21.791249
+7   https://reut.rs/3us5JXi  ...  2023-11-30 17:54:21.791249
+12   http://reut.rs/3uq4Crh  ...  2023-11-30 17:54:21.791249
+13                      NaN  ...  2023-11-30 17:54:21.791249
+15                      NaN  ...  2023-11-30 17:54:21.791249
+
+[5 rows x 36 columns]
+"30-Nov-23 17:54:45" - SMAR - INFO - GET for comment id: 1727265739193917808 with conv_id: 1727265739193917808 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1689104203937988608', 'author_username': 'DanceGirls6789', 'community_notes': None, 'conversation_id': '1727265739193917808', 'created_time': '2023-11-22T10:04:41', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1727266845533553104', 'in_reply_to_post_id': '1727265739193917808', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': "@Reuters How can we improve the Earth's climate ?", 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700647481, 'view_count': 25}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '33897894', 'author_username': 'Tankingpriest', 'community_notes': None, 'conversation_id': '1727265739193917808', 'created_time': '2023-11-22T10:37:39', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1727275141296714127', 'in_reply_to_post_id': '1727265739193917808', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': '@Reuters Try arresting the arsonists and find out who is paying them.', 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700649459, 'view_count': 4}]
+"30-Nov-23 17:54:46" - SMAR - INFO - GET for comment id: 1727557381943332932 with conv_id: 1727557381943332932 finished! 
+ []
+"30-Nov-23 17:54:52" - SMAR - INFO - GET for comment id: 1727372340408078727 with conv_id: 1727371457062187371 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': ['https://pbs.twimg.com/media/F_jb1YpXEAAy4MA.jpg', 'https://pbs.twimg.com/media/F_jb1ZoXMAAvbrn.jpg', 'https://pbs.twimg.com/media/F_jb1anXMAA1EK0.jpg', 'https://pbs.twimg.com/media/F_jb1dcW4AAXdDl.jpg'], 'attached_videos': None, 'author_id': '37599685', 'author_username': 'DXBMediaOffice', 'community_notes': None, 'conversation_id': '1727371457062187371', 'created_time': '2023-11-22T17:03:54', 'favorite_count': 6, 'geo_lat': None, 'geo_lon': None, 'id': '1727372345890005130', 'in_reply_to_post_id': '1727372340408078727', 'in_reply_to_profile_id': '37599685', 'in_reply_to_profile_username': 'DXBMediaOffice', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 3, 'source': None, 'text': "Saeed Al Tayer,Managing Director&CEO of DEWA:Under the visionary leadership of @HHShkMohd and the follow up of @HamdanMohammed, DEWA has formulated a comprehensive plan to advance sustainable development, elevate Dubai's global standing as a leader in sustainability&green economy https://t.co/9ESbB6onOq", 'text_lang': 'en', 'text_tagged_users': ['HHShkMohd', 'HamdanMohammed'], 'text_tags': None, 'timestamp': 1700672634, 'view_count': 2317}]
+"30-Nov-23 17:54:53" - SMAR - INFO - GET for comment id: 1728005402170671123 with conv_id: 1727814239472029901 finished! 
+ []
+"30-Nov-23 17:54:58" - SMAR - INFO - GET for comment id: 1727990793485340845 with conv_id: 1727988516041204021 finished! 
+ []
+"30-Nov-23 17:54:59" - SMAR - INFO - GET for comment id: 1728419944881336494 with conv_id: 1728149727559176409 finished! 
+ []
+"30-Nov-23 17:55:00" - SMAR - INFO - GET for comment id: 1728996075984273477 with conv_id: 1728996073417449847 finished! 
+ []
+"30-Nov-23 17:55:03" - SMAR - INFO - GET for comment id: 1728355878792036411 with conv_id: 1589601685667995648 finished! 
+ []
+"30-Nov-23 17:55:04" - SMAR - INFO - GET for comment id: 1728789272487149886 with conv_id: 1728789272487149886 finished! 
+ []
+"30-Nov-23 17:55:07" - SMAR - INFO - GET for comment id: 1728388060885520607 with conv_id: 1728388060885520607 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': ['https://video.twimg.com/ext_tw_video/1728388884227035136/pu/vid/avc1/1280x720/c25cmwalkcvzkjTf.mp4?tag=12'], 'attached_videos': [{'duration': 118, 'id': '1728388884227035136', 'url': 'https://video.twimg.com/ext_tw_video/1728388884227035136/pu/vid/avc1/1280x720/c25cmwalkcvzkjTf.mp4?tag=12', 'view_count': None}], 'author_id': '1531713108279951360', 'author_username': 'AbdJaradat13', 'community_notes': None, 'conversation_id': '1728388060885520607', 'created_time': '2023-11-25T12:23:44', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1728389002644832700', 'in_reply_to_post_id': '1728388060885520607', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': '@Reuters Video of Hamas handing over prisoners. This is how we treat a prisoner in Islam https://t.co/I5rYcwybPA', 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700915024, 'view_count': 8}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1366310595465793536', 'author_username': 'NabMed4', 'community_notes': None, 'conversation_id': '1728388060885520607', 'created_time': '2023-11-25T12:29:42', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1728390502305988793', 'in_reply_to_post_id': '1728388060885520607', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': '@Reuters Biggest fraud in the world financially system , federal reserve and petro dollar....', 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700915382, 'view_count': 51}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '122415813', 'author_username': 'scriptisah', 'community_notes': None, 'conversation_id': '1728388060885520607', 'created_time': '2023-11-25T12:32:19', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1728391161445032052', 'in_reply_to_post_id': '1728388060885520607', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': "@Reuters Don't worry USA will print more dollars 🤣😂🤣😂", 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700915539, 'view_count': 55}]
+"30-Nov-23 17:55:33" - SMAR - INFO - GET for comment id: 1729109816822395369 with conv_id: 1729109816822395369 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '39279658', 'author_username': 'BravePak1947', 'community_notes': None, 'conversation_id': '1729109816822395369', 'created_time': '2023-11-27T21:12:33', 'favorite_count': 1, 'geo_lat': None, 'geo_lon': None, 'id': '1729246860055888022', 'in_reply_to_post_id': '1729109816822395369', 'in_reply_to_profile_id': '1275209331240308736', 'in_reply_to_profile_username': 'pk_economy', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': "@pk_economy PCB must not accept this. It's Dubai, who is behind Indian BCC to rejections.", 'text_lang': 'en', 'text_tagged_users': ['pk_economy'], 'text_tags': None, 'timestamp': 1701119553, 'view_count': 46}]
+"30-Nov-23 17:55:34" - SMAR - INFO - GET for comment id: 1729315802413781379 with conv_id: 1729292601717866650 finished! 
+ []
+"30-Nov-23 17:55:36" - SMAR - INFO - GET for comment id: 1729230311010205783 with conv_id: 1729230308795617626 finished! 
+ []
+"30-Nov-23 17:55:39" - SMAR - INFO - GET for comment id: 1729418716637442212 with conv_id: 1729418716637442212 finished! 
+ []
+"30-Nov-23 17:55:44" - SMAR - INFO - GET for comment id: 1729443085053272343 with conv_id: 1729443085053272343 finished! 
+ []
+"30-Nov-23 17:55:45" - SMAR - INFO - GET for comment id: 1729474892679012655 with conv_id: 1729474892679012655 finished! 
+ [{'attached_links_url': ['https://economymiddleeast.com/news/dubai-spearheads-middle-east-global-city-rankings/'], 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1467443342971707393', 'author_username': 'Economy_ME', 'community_notes': None, 'conversation_id': '1729474892679012655', 'created_time': '2023-11-28T12:18:54', 'favorite_count': 2, 'geo_lat': None, 'geo_lon': None, 'id': '1729474948622606696', 'in_reply_to_post_id': '1729474892679012655', 'in_reply_to_profile_id': '1467443342971707393', 'in_reply_to_profile_username': 'Economy_ME', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': 'Read more: https://t.co/TywGraMAJG', 'text_lang': 'en', 'text_tagged_users': None, 'text_tags': None, 'timestamp': 1701173934, 'view_count': 14}]
+"30-Nov-23 17:55:54" - SMAR - INFO - GET for comment id: 1729508543915528579 with conv_id: 1729508543915528579 finished! 
+ []
+"30-Nov-23 17:55:54" - SMAR - INFO - GET for comments Completed!
+"30-Nov-23 17:55:54" - SMAR - INFO - comments are   attached_links_url  ...     tweet_insert_timestamp
+0               None  ... 2023-11-30 17:55:54.709138
+1               None  ... 2023-11-30 17:55:54.709138
+2               None  ... 2023-11-30 17:55:54.709138
+3               None  ... 2023-11-30 17:55:54.709138
+4               None  ... 2023-11-30 17:55:54.709138
+
+[5 rows x 36 columns]
+"30-Nov-23 17:55:55" - SMAR - INFO - comments are written to db for dubai economy
+"30-Nov-23 17:55:55" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 17:55:55] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -
+"30-Nov-23 17:56:05" - SMAR - INFO - Updating tasks for dubai economy
+"30-Nov-23 17:56:06" - SMAR - INFO - Data present for dubai economy not updating task
+"30-Nov-23 17:56:07" - SMAR - INFO - Data is         attached_links_url  ...     tweet_insert_timestamp
+0  https://reut.rs/47p0WEK  ... 2023-11-30 17:56:07.415581
+1    http://dlvr.it/Sz8cmw  ... 2023-11-30 17:56:07.415581
+2    http://dlvr.it/Sz8xlG  ... 2023-11-30 17:56:07.415581
+3    http://dlvr.it/Sz8xll  ... 2023-11-30 17:56:07.415581
+4    http://dlvr.it/Sz8xlz  ... 2023-11-30 17:56:07.415581
+
+[5 rows x 36 columns]
+"30-Nov-23 17:56:07" - SMAR - INFO - New Path is data/Twitter/twitter_posts_for_dubai-economy.csv
+"30-Nov-23 17:56:07" - SMAR - INFO - getting comments for dubai economy
+"30-Nov-23 17:56:07" - SMAR - INFO - data is          attached_links_url  ...      tweet_insert_timestamp
+0   https://reut.rs/47p0WEK  ...  2023-11-30 17:56:07.415581
+7   https://reut.rs/3us5JXi  ...  2023-11-30 17:56:07.415581
+12   http://reut.rs/3uq4Crh  ...  2023-11-30 17:56:07.415581
+13                      NaN  ...  2023-11-30 17:56:07.415581
+15                      NaN  ...  2023-11-30 17:56:07.415581
+
+[5 rows x 36 columns]
+"30-Nov-23 17:56:39" - SMAR - INFO - GET for comment id: 1727557381943332932 with conv_id: 1727557381943332932 finished! 
+ []
+"30-Nov-23 17:56:40" - SMAR - INFO - GET for comment id: 1728005402170671123 with conv_id: 1727814239472029901 finished! 
+ []
+"30-Nov-23 17:56:45" - SMAR - INFO - GET for comment id: 1727265739193917808 with conv_id: 1727265739193917808 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1689104203937988608', 'author_username': 'DanceGirls6789', 'community_notes': None, 'conversation_id': '1727265739193917808', 'created_time': '2023-11-22T10:04:41', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1727266845533553104', 'in_reply_to_post_id': '1727265739193917808', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': "@Reuters How can we improve the Earth's climate ?", 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700647481, 'view_count': 25}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '33897894', 'author_username': 'Tankingpriest', 'community_notes': None, 'conversation_id': '1727265739193917808', 'created_time': '2023-11-22T10:37:39', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1727275141296714127', 'in_reply_to_post_id': '1727265739193917808', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': '@Reuters Try arresting the arsonists and find out who is paying them.', 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700649459, 'view_count': 4}]
+"30-Nov-23 17:56:46" - SMAR - INFO - GET for comment id: 1727990793485340845 with conv_id: 1727988516041204021 finished! 
+ []
+"30-Nov-23 17:56:46" - SMAR - INFO - GET for comment id: 1728388060885520607 with conv_id: 1728388060885520607 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': ['https://video.twimg.com/ext_tw_video/1728388884227035136/pu/vid/avc1/1280x720/c25cmwalkcvzkjTf.mp4?tag=12'], 'attached_videos': [{'duration': 118, 'id': '1728388884227035136', 'url': 'https://video.twimg.com/ext_tw_video/1728388884227035136/pu/vid/avc1/1280x720/c25cmwalkcvzkjTf.mp4?tag=12', 'view_count': None}], 'author_id': '1531713108279951360', 'author_username': 'AbdJaradat13', 'community_notes': None, 'conversation_id': '1728388060885520607', 'created_time': '2023-11-25T12:23:44', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1728389002644832700', 'in_reply_to_post_id': '1728388060885520607', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': '@Reuters Video of Hamas handing over prisoners. This is how we treat a prisoner in Islam https://t.co/I5rYcwybPA', 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700915024, 'view_count': 8}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1366310595465793536', 'author_username': 'NabMed4', 'community_notes': None, 'conversation_id': '1728388060885520607', 'created_time': '2023-11-25T12:29:42', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1728390502305988793', 'in_reply_to_post_id': '1728388060885520607', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': '@Reuters Biggest fraud in the world financially system , federal reserve and petro dollar....', 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700915382, 'view_count': 51}, {'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '122415813', 'author_username': 'scriptisah', 'community_notes': None, 'conversation_id': '1728388060885520607', 'created_time': '2023-11-25T12:32:19', 'favorite_count': 0, 'geo_lat': None, 'geo_lon': None, 'id': '1728391161445032052', 'in_reply_to_post_id': '1728388060885520607', 'in_reply_to_profile_id': '1652541', 'in_reply_to_profile_username': 'Reuters', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': "@Reuters Don't worry USA will print more dollars 🤣😂🤣😂", 'text_lang': 'en', 'text_tagged_users': ['Reuters'], 'text_tags': None, 'timestamp': 1700915539, 'view_count': 55}]
+"30-Nov-23 17:56:51" - SMAR - INFO - GET for comment id: 1727372340408078727 with conv_id: 1727371457062187371 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': ['https://pbs.twimg.com/media/F_jb1YpXEAAy4MA.jpg', 'https://pbs.twimg.com/media/F_jb1ZoXMAAvbrn.jpg', 'https://pbs.twimg.com/media/F_jb1anXMAA1EK0.jpg', 'https://pbs.twimg.com/media/F_jb1dcW4AAXdDl.jpg'], 'attached_videos': None, 'author_id': '37599685', 'author_username': 'DXBMediaOffice', 'community_notes': None, 'conversation_id': '1727371457062187371', 'created_time': '2023-11-22T17:03:54', 'favorite_count': 6, 'geo_lat': None, 'geo_lon': None, 'id': '1727372345890005130', 'in_reply_to_post_id': '1727372340408078727', 'in_reply_to_profile_id': '37599685', 'in_reply_to_profile_username': 'DXBMediaOffice', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 3, 'source': None, 'text': "Saeed Al Tayer,Managing Director&CEO of DEWA:Under the visionary leadership of @HHShkMohd and the follow up of @HamdanMohammed, DEWA has formulated a comprehensive plan to advance sustainable development, elevate Dubai's global standing as a leader in sustainability&green economy https://t.co/9ESbB6onOq", 'text_lang': 'en', 'text_tagged_users': ['HHShkMohd', 'HamdanMohammed'], 'text_tags': None, 'timestamp': 1700672634, 'view_count': 2317}]
+"30-Nov-23 17:56:52" - SMAR - INFO - GET for comment id: 1728789272487149886 with conv_id: 1728789272487149886 finished! 
+ []
+"30-Nov-23 17:56:55" - SMAR - INFO - GET for comment id: 1728355878792036411 with conv_id: 1589601685667995648 finished! 
+ []
+"30-Nov-23 17:56:59" - SMAR - INFO - GET for comment id: 1728419944881336494 with conv_id: 1728149727559176409 finished! 
+ []
+"30-Nov-23 17:57:03" - SMAR - INFO - GET for comment id: 1728996075984273477 with conv_id: 1728996073417449847 finished! 
+ []
+"30-Nov-23 17:57:04" - SMAR - INFO - GET for comment id: 1729230311010205783 with conv_id: 1729230308795617626 finished! 
+ []
+"30-Nov-23 17:57:06" - SMAR - INFO - GET for comment id: 1729109816822395369 with conv_id: 1729109816822395369 finished! 
+ [{'attached_links_url': None, 'attached_medias_url': None, 'attached_videos': None, 'author_id': '39279658', 'author_username': 'BravePak1947', 'community_notes': None, 'conversation_id': '1729109816822395369', 'created_time': '2023-11-27T21:12:33', 'favorite_count': 1, 'geo_lat': None, 'geo_lon': None, 'id': '1729246860055888022', 'in_reply_to_post_id': '1729109816822395369', 'in_reply_to_profile_id': '1275209331240308736', 'in_reply_to_profile_username': 'pk_economy', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': "@pk_economy PCB must not accept this. It's Dubai, who is behind Indian BCC to rejections.", 'text_lang': 'en', 'text_tagged_users': ['pk_economy'], 'text_tags': None, 'timestamp': 1701119553, 'view_count': 46}]
+"30-Nov-23 17:57:09" - SMAR - INFO - GET for comment id: 1729315802413781379 with conv_id: 1729292601717866650 finished! 
+ []
+"30-Nov-23 17:57:16" - SMAR - INFO - GET for comment id: 1729418716637442212 with conv_id: 1729418716637442212 finished! 
+ []
+"30-Nov-23 17:57:21" - SMAR - INFO - GET for comment id: 1729443085053272343 with conv_id: 1729443085053272343 finished! 
+ []
+"30-Nov-23 17:57:28" - SMAR - INFO - GET for comment id: 1729474892679012655 with conv_id: 1729474892679012655 finished! 
+ [{'attached_links_url': ['https://economymiddleeast.com/news/dubai-spearheads-middle-east-global-city-rankings/'], 'attached_medias_url': None, 'attached_videos': None, 'author_id': '1467443342971707393', 'author_username': 'Economy_ME', 'community_notes': None, 'conversation_id': '1729474892679012655', 'created_time': '2023-11-28T12:18:54', 'favorite_count': 2, 'geo_lat': None, 'geo_lon': None, 'id': '1729474948622606696', 'in_reply_to_post_id': '1729474892679012655', 'in_reply_to_profile_id': '1467443342971707393', 'in_reply_to_profile_username': 'Economy_ME', 'place_country_code': None, 'place_country_name': None, 'place_full_name': None, 'place_type': None, 'post_type': 'reply', 'quote_count': 0, 'quoted_status_id': None, 'quoted_status_profile_username': None, 'reply_count': 0, 'retweet_count': 0, 'source': None, 'text': 'Read more: https://t.co/TywGraMAJG', 'text_lang': 'en', 'text_tagged_users': None, 'text_tags': None, 'timestamp': 1701173934, 'view_count': 14}]
+"30-Nov-23 17:57:36" - SMAR - INFO - GET for comment id: 1729508543915528579 with conv_id: 1729508543915528579 finished! 
+ []
+"30-Nov-23 17:57:36" - SMAR - INFO - GET for comments Completed!
+"30-Nov-23 17:57:36" - SMAR - INFO - comments are   attached_links_url  ...     tweet_insert_timestamp
+0               None  ... 2023-11-30 17:57:36.312793
+1               None  ... 2023-11-30 17:57:36.312793
+2               None  ... 2023-11-30 17:57:36.312793
+3               None  ... 2023-11-30 17:57:36.312793
+4               None  ... 2023-11-30 17:57:36.312793
+
+[5 rows x 36 columns]
+"30-Nov-23 17:57:36" - SMAR - INFO - comments are written to db for dubai economy
+"30-Nov-23 17:57:36" - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2023 17:57:36] "[35m[1mPOST /keyterm/get_data/twitter HTTP/1.1[0m" 201 -

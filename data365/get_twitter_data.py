@@ -150,24 +150,44 @@ def get_twitter_comments(path: str=None, key_word:str = None):
     tweets = pd.read_csv(path)
     tweets_with_reply = tweets[tweets['reply_count'] >= 1].head(50)
     logger.info(f"data is {tweets_with_reply.head()}")
-    data = {'items': []}
-    # data_not_extracted = True
-    # while data_not_extracted:
-    for i, id in zip(tweets_with_reply.index,tweets_with_reply['id']):
-        new_update_url = update_url.format(post_id=tweets_with_reply.loc[i,'id'], section='feed', profile_id=tweets_with_reply.loc[i,'author_id'])
-        update_res = requests.post(new_update_url, params=params)
-
     ids = tweets_with_reply.index.tolist()
+    data = {'items': []}
+
+    # Check if id in cache
+    for i in ids:
+        new_update_url = update_url.format(
+            post_id=tweets_with_reply.loc[i,'id'],
+            section='feed',
+            profile_id=tweets_with_reply.loc[i,'author_id'])
+        r = requests.get(new_update_url, params=params)
+        if r.json()['data']['status'] == 'finished':
+            ids.remove(i)
+
+    # Update for the :
+    for i in ids:
+        new_update_url = update_url.format(
+            post_id=tweets_with_reply.loc[i,'id'],
+            section='feed',
+            profile_id=tweets_with_reply.loc[i,'author_id'])
+        _ = requests.post(new_update_url, params=params)
+
     while len(ids)>0:
         for i in ids:
-            new_update_url = update_url.format(post_id=tweets_with_reply.loc[i,'id'], section='feed', profile_id=tweets_with_reply.loc[i,'author_id'])
+            new_update_url = update_url.format(
+                post_id=tweets_with_reply.loc[i,'id'],
+                section='feed',
+                profile_id=tweets_with_reply.loc[i,'author_id'])
             r = requests.get(new_update_url, params=params)
             if r.json()['data']['status'] == 'finished':
                 ids.remove(i)
-                new_url = url.format(post_id=tweets_with_reply.loc[i,'id'], section='feed', profile_id=tweets_with_reply.loc[i,'author_id'])
+                new_url = url.format(
+                    post_id=tweets_with_reply.loc[i,'id'],
+                    section='feed',
+                    profile_id=tweets_with_reply.loc[i,'author_id'])
                 r = requests.get(url=new_url, params=params)
                 items = r.json()['data']['items']
-                logger.info(f"GET for comment id: {tweets_with_reply.loc[i,'id']} with conv_id: {tweets_with_reply.loc[i,'conversation_id']} finished! \n {items}")
+                logger.info(f"GET for comment id: {tweets_with_reply.loc[i,'id']}"
+                            f" with conv_id: {tweets_with_reply.loc[i,'conversation_id']} finished! \n {items}")
                 data['items'].extend(items)
                 items = None
             elif r.json()['data']['status'] == 'failed':
