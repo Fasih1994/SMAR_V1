@@ -228,14 +228,14 @@ def get_twitter_data_from_db(
 
     if table=='posts':
         sql = f"""
-        SELECT top 100 author_username , created_time, view_count, text, tone, sentiment , geo_lat, geo_lon
+        SELECT top 100 id, author_username , created_time, view_count, text, tone, sentiment , geo_lat, geo_lon
         FROM twitter_posts
         WHERE term in ('{"', '".join(terms)}')
 
         """
     elif table=='comments':
         sql = f"""
-        SELECT top 100 author_username , created_time, view_count, text, tone, sentiment , geo_lat, geo_lon
+        SELECT top 100 id, conversation_id, author_username , created_time, view_count, text, tone, sentiment , geo_lat, geo_lon
         FROM twitter_comments
         WHERE term in ('{"', '".join(terms)}')
 
