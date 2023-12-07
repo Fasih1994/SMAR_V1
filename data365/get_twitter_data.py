@@ -7,7 +7,7 @@ import pandas as pd
 from typing import Literal
 from datetime import datetime
 
-from utils import get_engine, get_logger, sqlcol
+from utils import get_engine, get_logger, sqlcol, fillna_based_on_dtype
 
 load_dotenv()
 
@@ -224,7 +224,7 @@ def get_twitter_data_from_db(
     to_date:str = None,
     ) -> pd.DataFrame:
     if terms == []:
-        return None
+        return pd.DataFrame()
 
     if table=='posts':
         sql = f"""
@@ -244,8 +244,7 @@ def get_twitter_data_from_db(
         sql + f"WHERE created_at BETWEEN {from_date} AND {to_date}"
 
     sql + ";"
-    # print(sql)
 
     df = pd.read_sql_query(sql, sql_server_engine)
-    df.fillna('unavailable', inplace=True)
+    df = fillna_based_on_dtype(df=df)
     return df

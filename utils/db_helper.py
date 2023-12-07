@@ -30,3 +30,15 @@ def sqlcol(dfparam):
             dtypedict.update({i: types.INT()})
 
     return dtypedict
+
+def fillna_based_on_dtype(df):
+    for col in df.columns:
+        if df[col].dtype == 'float64':
+            df[col].fillna(-1.0, inplace=True)
+        elif df[col].dtype == 'object':
+            df[col].fillna('unavilable', inplace=True)
+        elif df[col].dtype == 'int64':
+            df[col].fillna(-1, inplace=True)
+        elif df[col].dtype == 'bool':
+            df[col].fillna(False, inplace=True)
+    return df

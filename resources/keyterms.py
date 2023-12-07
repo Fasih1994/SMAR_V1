@@ -3,7 +3,7 @@ import json
 from flask_smorest import Blueprint, abort
 from utils import get_terms_openai, get_logger
 from flask_jwt_extended import get_jwt_identity, jwt_required, get_jwt
-from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy.exc import SQLAlchemyError, OperationalError
 
 from models import KeyTermGenModel, KeyTermSelectModel
 from schemas import KeytermGenSchema, KeytermGetDataSchema, KeytermDataFromTable, KeytermSelectSchema
@@ -72,9 +72,14 @@ class Keyterm(MethodView):
                 terms.extend(term['terms'])
             return {'terms': list(set(terms))[:15]}
 
+        except OperationalError as e:
+            logger.error(e)
+            abort(500, message=str(e))
+
         except SQLAlchemyError as e:
             logger.error(e)
-            abort(500, message="An error occurred while inserting the item.")
+            abort(500, message="An error occurred accessing the database.")
+
 
 @blp.route("/keyterm/get_data/twitter")
 class KeytermGetData(MethodView):
@@ -113,30 +118,30 @@ class KeytermGetData(MethodView):
 @blp.route("/keyterm/data/twitter")
 class KeytermGetData(MethodView):
     # @jwt_required(fresh=True)
-    @blp.arguments(KeytermDataFromTable)#, location='query')
+    @blp.arguments(KeytermDataFromTable)
     @blp.response(200, None)
     def post(self, args):
         try:
-                # terms = """Dubai economy
-                # Economic growth
-                # Business environment
-                # Investment opportunities
-                # Infrastructure development
-                # Tourism industry
-                # Trade and commerce""".split('\n')
             terms = args.pop('terms')
+            if terms == []:
+                raise ValueError("Terms are empty array")
+            terms = [term.lower() for term in terms]
             posts = get_twitter_data_from_db(terms, table='posts', **args)
             comments = get_twitter_data_from_db(terms, table='comments', **args)
             return {
                 'data': {
-                    "posts": posts.to_dict(orient='records',),
-                    "comments": comments.to_dict(orient='records')
+                    "posts": posts.to_dict(orient='records',) if not posts.empty else 'Data not available',
+                    "comments": comments.to_dict(orient='records') if not comments.empty else 'Data not available'
                 }
                 }
 
         except SQLAlchemyError as e:
             logger.error(e)
             abort(500, message="An error occurred while Getting data from SQL server.")
+
+        except ValueError as e:
+            abort(400, message="terms must be an array of keyterms not empty or []")
+
         except Exception as e:
             logger.error(e)
             abort(500, message="backend code messed up")
