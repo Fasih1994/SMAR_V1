@@ -12,7 +12,8 @@ from models import Place, Review
 from schemas import GoooglePlaceDataSchema, GoooglePlaceIdSchema, ApiResponseSchema
 from db import db
 
-blp = Blueprint("Google", "google", description="Google reviews for places")
+blp = Blueprint("Google", "google", description="Google reviews for places",
+                url_prefix='/api/flask/')
 
 logger = get_logger('SMAR')
 
@@ -71,7 +72,7 @@ def save_places(
 
 
 
-@blp.route("/keyterm/google/place-id")
+@blp.route("/google/place-id")
 class GooglePlaces(MethodView):
     # @jwt_required(fresh=True)
     @blp.arguments(GoooglePlaceDataSchema)
@@ -105,7 +106,7 @@ class GooglePlaces(MethodView):
 
         return res.json()
 
-@blp.route("/keyterm/google/place-data")
+@blp.route("/google/place-data")
 class GooglePlaces(MethodView):
     # @jwt_required(fresh=True)
     @blp.arguments(GoooglePlaceIdSchema,location='query')

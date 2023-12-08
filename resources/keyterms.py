@@ -11,7 +11,8 @@ from schemas import KeytermGenSchema, KeytermGetDataSchema, KeytermDataFromTable
 from data365 import get_twitter_posts, get_twitter_comments, get_twitter_data_from_db
 
 
-blp = Blueprint("Keyterms", "keyterms", description="Operations on Keyterms")
+blp = Blueprint("Keyterms", "keyterms", description="Operations on Keyterms",
+                url_prefix='/api/flask/')
 
 logger = get_logger('SMAR')
 

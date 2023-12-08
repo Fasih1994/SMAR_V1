@@ -1,6 +1,6 @@
 import os
 from SMAR import create_app
-from models import * 
+from models import *
 from utils import get_logger
 from dotenv import load_dotenv
 
@@ -11,10 +11,10 @@ app = create_app()
 
 
 
-@app.route('/keyterm/test')
+@app.route('/api/flask/test')
 def test_api():
     logger.info('Test API is checked!')
     return {'message': "APIs started successfully!"}, 200
 
 if __name__ == "__main__":
-    app.run(host=os.environ["HOST"], port=os.environ["PORT"])  
+    app.run(host=os.environ["HOST"], port=os.environ["PORT"])

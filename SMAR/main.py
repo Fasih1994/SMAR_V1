@@ -51,9 +51,9 @@ def create_app(db_url:str = None) -> Flask:
 
     # JWT configuration ends
 
-    api.register_blueprint(UserBlueprint)
-    api.register_blueprint(ItemBlueprint)
-    api.register_blueprint(StoreBlueprint)
+    # api.register_blueprint(UserBlueprint)
+    # api.register_blueprint(ItemBlueprint)
+    # api.register_blueprint(StoreBlueprint)
     api.register_blueprint(KeytermBlueprint)
     api.register_blueprint(GoogleReviewBlueprint)
 
